@@ -4248,3 +4248,54 @@ right: 0.7em;
 .homeh1{
     text-align: left;
 }
+/*sidebar edits*/
+.list .nav-link{
+    border-radius: 50px 0 0 50px !important;
+}
+.list.active > a::before {
+    left: auto!important;
+    right: 0 !important;
+    box-shadow: 15px 19px 0px #f8f8f9 !important;
+}
+.list.active > a::after {
+    right: 0 !important;
+    left: auto!important;
+    box-shadow: 17px -19px 0px #f8f8f9 !important;
+}
+.list.dropdown::after{
+    left: auto!important;
+    right: 2em!important;
+}
+.navigation .icon{
+    margin-right: 0 !important;
+    margin-left: 40px !important;
+}
+.navigation .title{
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+.navigation .drop-down-menu > .active{
+    border-radius: 50px 0 0 50px!important;
+}
+.navigation .list.dropdown .drop-down-menu li{
+    margin-left: 35px!important;
+    margin-right: 0px!important;
+}
+.navigation .drop-down-menu > .active::before{
+    right: 0 !important;
+    left: auto !important;
+    box-shadow: 15px 19px 0px #f8f8f9 !important;
+}
+.navigation .drop-down-menu > .active::after{
+    right: 0 !important;
+    left: auto !important;
+    box-shadow: 17px -19px 0px #f8f8f9 !important;
+}
+.navigation .nav-tabs .nav-link.active{
+    color: #032F55 !important;
+}
+.sama9:before{
+    left: 333px;
+    right: auto;
+    box-shadow: -50px -36px 0 #032f55!important;
+}

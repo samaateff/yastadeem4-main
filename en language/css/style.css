@@ -4642,7 +4642,7 @@ form.unactive {
 }
 
 .navigation .list.dropdown .drop-down-menu li {
-    color: #ffffff !important;
+    color: #ffffff ;
     display: flex !important;
 }
 
