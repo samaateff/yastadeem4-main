@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="208.028" height="203.013" viewBox="0 0 208.028 203.013">
+  <g id="Group_1693" data-name="Group 1693" transform="translate(-1159.986 -3451)">
+    <path id="Union_1" data-name="Union 1" d="M0,138.163V10A10,10,0,0,1,10,0H185.855a10,10,0,0,1,10,10V138.163a10,10,0,0,1-10,10H16.64L0,168.154Z" transform="translate(1167.423 3485.859)" fill="#052f53"/>
+    <path id="Union_2" data-name="Union 2" d="M0,138.526V10A10,10,0,0,1,10,0H161.477a10,10,0,0,1,10,10V138.526a10,10,0,0,1-10,10H14.57L0,168.567Z" transform="translate(1159.986 3474.702)" fill="#529ae4"/>
+    <rect id="Rectangle_2703" data-name="Rectangle 2703" width="200" height="141" rx="10" transform="translate(1168.014 3474)" fill="#fff"/>
+    <g id="Group_1544" data-name="Group 1544" transform="translate(0.014 -162)">
+      <circle id="Ellipse_44" data-name="Ellipse 44" cx="19.5" cy="19.5" r="19.5" transform="translate(1163 3620)" fill="#e1ebf5"/>
+      <ellipse id="Ellipse_45" data-name="Ellipse 45" cx="19.5" cy="19" rx="19.5" ry="19" transform="translate(1160 3618)" fill="#c1d6eb"/>
+      <text id="_" data-name="‘‘" transform="translate(1187 3653)" fill="#032f55" font-size="31" font-family="Cairo" font-weight="700"><tspan x="-15" y="0">‘‘</tspan></text>
+    </g>
+  </g>
+</svg>

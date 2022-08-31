@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681.919" height="242" viewBox="0 0 681.919 242">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3080" data-name="Rectangle 3080" width="75" height="237" transform="translate(0.216 0.314)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1913" data-name="Group 1913" transform="translate(-230.081 -1423)">
+    <g id="Group_1912" data-name="Group 1912">
+      <g id="Ellipse_218" data-name="Ellipse 218" transform="translate(688 1432)" fill="none" stroke="#032f55" stroke-width="1">
+        <circle cx="112" cy="112" r="112" stroke="none"/>
+        <circle cx="112" cy="112" r="111.5" fill="none"/>
+      </g>
+      <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(836.785 1427.686)" clip-path="url(#clip-path)">
+        <g id="Ellipse_219" data-name="Ellipse 219" transform="translate(-148.785 3.314)" fill="#032f55" stroke="#032f55" stroke-width="1">
+          <circle cx="112" cy="112" r="112" stroke="none"/>
+          <circle cx="112" cy="112" r="111.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Ellipse_217" data-name="Ellipse 217" transform="translate(718 1462)" fill="#e1ebf5" stroke="#f8f8f9" stroke-width="5">
+        <circle cx="82" cy="82" r="82" stroke="none"/>
+        <circle cx="82" cy="82" r="79.5" fill="none"/>
+      </g>
+      <g id="Group_1903" data-name="Group 1903" transform="translate(230.087 1423.253)">
+        <path id="Path_13718" data-name="Path 13718" d="M-6968.952,7203h-552.758" transform="translate(7538.865 -7194.107)" fill="none" stroke="#032f55" stroke-width="1"/>
+        <g id="Ellipse_220" data-name="Ellipse 220" transform="translate(-0.006 -0.254)" fill="#fff" stroke="#032f55" stroke-width="1">
+          <circle cx="9" cy="9" r="9" stroke="none"/>
+          <circle cx="9" cy="9" r="8.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_13718-2" data-name="Path 13718" d="M-6969.01,7203h-552.7" transform="translate(7769.01 -5547)" fill="none" stroke="#032f55" stroke-width="1"/>
+  </g>
+</svg>

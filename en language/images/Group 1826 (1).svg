@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="521" height="476.961" viewBox="0 0 521 476.961">
+  <g id="Group_1826" data-name="Group 1826" transform="translate(-531.014 -3304)">
+    <path id="Union_1" data-name="Union 1" d="M0,348.575V10A10,10,0,0,1,10,0H464a10,10,0,0,1,10,10V348.575a10,10,0,0,1-10,10H40.276L0,406.961Z" transform="translate(566.014 3374)" fill="#052f53"/>
+    <path id="Union_2" data-name="Union 2" d="M0,349.457V10A10,10,0,0,1,10,0H405a10,10,0,0,1,10,10V349.457a10,10,0,0,1-10,10H35.262L0,407.96Z" transform="translate(548.014 3347)" fill="#529ae4"/>
+    <rect id="Rectangle_2703" data-name="Rectangle 2703" width="486" height="338" rx="10" transform="translate(566.014 3347)" fill="#fff"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="41.5" cy="41.5" r="41.5" transform="translate(536.014 3321)" fill="#e1ebf5"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="41.5" cy="41.5" r="41.5" transform="translate(531.014 3316)" fill="#c1d6eb"/>
+    <text id="_" data-name="‘‘" transform="translate(589.014 3394)" fill="#032f55" font-size="69" font-family="Cairo" font-weight="700"><tspan x="-33" y="0">‘‘</tspan></text>
+  </g>
+</svg>
