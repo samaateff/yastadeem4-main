@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.812" viewBox="0 0 16 16.812">
+  <g id="_2639765_alarm_clock_icon" data-name="2639765_alarm_clock_icon" transform="translate(-2 -2)">
+    <path id="Path_8836" data-name="Path 8836" d="M10.8,5A6.952,6.952,0,0,0,4,12.1a6.952,6.952,0,0,0,6.8,7.1,6.952,6.952,0,0,0,6.8-7.1A6.952,6.952,0,0,0,10.8,5Zm.618,7.741H7.7A.628.628,0,0,1,7.09,12.1v-.007a.628.628,0,0,1,.615-.641H10.18V7.577a.628.628,0,0,1,.615-.642H10.8a.628.628,0,0,1,.614.642Z" transform="translate(-0.795 -1.192)" fill="#dc4130"/>
+    <line id="Line_56" data-name="Line 56" x2="2.411" y2="2.411" transform="translate(13.124 14.987)" fill="none" stroke="#dc4130" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_57" data-name="Line 57" x1="2.411" y2="2.411" transform="translate(4.472 14.987)" fill="none" stroke="#dc4130" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_8837" data-name="Path 8837" d="M23.76,7.249a3.161,3.161,0,0,0-4.46-4.46Z" transform="translate(-6.536 -0.005)" fill="#dc4130"/>
+    <path id="Path_8838" data-name="Path 8838" d="M7.237,2.776a3.161,3.161,0,0,0-4.46,4.46Z" transform="translate(0)" fill="#dc4130"/>
+  </g>
+</svg>

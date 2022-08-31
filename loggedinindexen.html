@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YASTAEEM</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- css files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
+    <!-- <link rel="stylesheet" href="css/style.css"/> -->
+    <link rel="stylesheet" href="css/styleen.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+    <div class='popup'>
+        <div class='cnt223'>
+            <i style="font-size: 2em;
+            color: #fff;
+            background: #032F55;
+            border-radius: 50px; padding: 0.1em;
+            cursor: pointer; position: absolute;" class="close fa fa-times"></i>
+
+        <img width="100%" src="images/welcome.png"/>
+        <div style="text-align: center;">
+        <h2 class="cnth2">مرحبا بك يا محمد</h2>
+        <span style="color: #529AE4; font-weight: bold; font-size: 20px;">هل جاهز لمهام جديدة اليوم؟</span>
+        <p class="cntp">
+            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+             ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+        <br/>
+        <br/>
+        </p>
+        </div>
+        <div style="text-align: center;margin-top: -1em;">
+            <a class="gahez" href="#">جاهز</a>
+            <a href="#">غير جاهز</a>
+        </div>
+        <img style="position: absolute;bottom: -36px;left: -1px;" src="images/Group 1838.svg"/>
+        </div>
+        </div>
+
+<!-- <div class="load-bar">
+    <div class="linear"></div>
+</div> -->
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="/action_page.php">
+            <input type="text" placeholder="كلمة البحث ...." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<!-- topheader -->
+<div class="container">
+    <div class="topheader">
+        <div>
+            <ul class="topheaderul">
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+                <li><a href="#">الشكاوي والاقتراحات</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="dropdown langdrop">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <span class="langspan">English</span>
+                    <img class="langi" src="images/Icon material-language.svg"/>
+                </button>
+                <ul class="dropdown-menu langmenu">
+                    <li><a class="dropdown-item" href="indexrtl.html">العربية</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<!-- navbar -->
+<div class="homebackground">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbarbrand" href="#">
+                <img class="logo" src="images/logo.png"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle balokkali" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            عن يستديم
+                            <i class="fa fa-angle-down balokkai"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif1">
+                                    <div>
+                                        <span class="eyespan"> رؤيتنا </span>
+                                        <img class="eye" src="images/Group 1616.svg"/>
+                                        <i  class=" eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif1">
+                                    <div>
+                                        <span class="eyespan"> رسالتنا </span>
+
+                                        <img class="eye"
+                                             src="images/6646376_dart_essentials_goal_mission_success_icon (1).svg"/>
+                                        <i class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif3">
+                                    <div>
+                                        <span class="eyespan"> اهدافنا </span>
+
+                                        <img class="eye" src="images/6619592_goal_keyword_seo_target_icon.svg"/>
+                                        <i  class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="#">اعمالنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="#">المدونة</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link4" aria-current="page" href="#"> تواصل معنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link5" aria-current="page" href="#">تسجيل كفاحص</a>
+                    </li>
+
+
+                </ul>
+
+                <div class="btns">
+                    <img onclick="openSearch()" class="srchicon" src="images/searchicon.svg"/>
+                    <a href="#" class="loginbtn">تسجيل الدخول</a>
+                    <a href="#" class="servicebtn">طلب الخدمة</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+</div>
+<!-- home -->
+<div class="container container1">
+    <div class="aftercontainer">
+        <span class="socialspan">تابعنا على</span>
+        <!-- <a href="#"> <img class="facebook" src="images/Icon awesome-facebook-f.svg"/> </a> -->
+        <a href="#"><i class="facebook fab fa-facebook-f"></i></a>
+        <!-- <a href="#"> <img class="linkedin" src="images/Icon awesome-linkedin-in.png"/> </a> -->
+        <a href="#"><i class="linkedin fab fa-linkedin-in"></i></a>
+        <!-- <a href="#"> <img class="instagram" src="images/Icon feather-instagram.svg"/> </a> -->
+        <a href="#"><i class="instagram fab fa-instagram"></i></a>
+        <!-- <a href="#"> <img class="whatsapp" src="images/843773_whatsapp_icon (1).svg" width="30px"/> </a> -->
+        <a href="#"><i class="whatsapp fab fa-whatsapp"></i></a>
+    </div>
+    <div class="aftercontainer2">
+        <span class="yasspan">yastaeem</span>
+    </div>
+
+    <div class="homecontent1">
+
+        <div class="owl-carousel owl-theme ThemeCoderClass myowl myfowl">
+
+            <div class="item1">
+
+                <div class="homecontent">
+                    <span class="homespan">حياكم الله</span>
+                    <h1 class="homeh1">منصة بلوكة<br/> لفحص العقارات</h1>
+                    <p class="homep">فريق عمل متكامل من المهندسين المتخصصين لتقييم
+                        عقارك تقييمًا نزيهًا غير<br/> متحيزًا بناء على أسس علمية
+                        للتقييم وباستخدام الطرق التكنولوجية</p>
+                    <a href="#" class="homebtn">اطلب خدمة الفحص</a>
+
+
+                </div>
+                <img src="images/future-building-construction-engineering-project.png"/>
+            </div>
+
+            <div class="item1">
+                <div class="homecontent">
+                    <span class="homespan">حياكم الله</span>
+                    <h1 class="homeh1">منصة بلوكة<br/> لفحص العقارات</h1>
+                    <p class="homep">فريق عمل متكامل من المهندسين المتخصصين لتقييم
+                        عقارك تقييمًا نزيهًا غير<br/> متحيزًا بناء على أسس علمية
+                        للتقييم وباستخدام الطرق التكنولوجية</p>
+                    <button class="homebtn"><a>اطلب خدمة الفحص</a></button>
+
+
+                </div>
+                <img src="images/future-building-construction-engineering-project.png"/>
+            </div>
+            <div class="item1">
+                <div class="homecontent">
+                    <span class="homespan">حياكم الله</span>
+                    <h1 class="homeh1">منصة بلوكة<br/> لفحص العقارات</h1>
+                    <p class="homep">فريق عمل متكامل من المهندسين المتخصصين لتقييم
+                        عقارك تقييمًا نزيهًا غير<br/> متحيزًا بناء على أسس علمية
+                        للتقييم وباستخدام الطرق التكنولوجية</p>
+                    <button class="homebtn"><a>اطلب خدمة الفحص</a></button>
+
+
+                </div>
+                <img src="images/future-building-construction-engineering-project.png"/>
+            </div>
+            <div class="item1">
+                <div class="homecontent">
+                    <span class="homespan">حياكم الله</span>
+                    <h1 class="homeh1">منصة بلوكة<br/> لفحص العقارات</h1>
+                    <p class="homep">فريق عمل متكامل من المهندسين المتخصصين لتقييم
+                        عقارك تقييمًا نزيهًا غير<br/> متحيزًا بناء على أسس علمية
+                        للتقييم وباستخدام الطرق التكنولوجية</p>
+                    <button class="homebtn"><a>اطلب خدمة الفحص</a></button>
+
+
+                </div>
+                <img src="images/future-building-construction-engineering-project.png"/>
+            </div>
+            <div class="item1">
+                <div class="homecontent">
+                    <span class="homespan">حياكم الله</span>
+                    <h1 class="homeh1">منصة بلوكة<br/> لفحص العقارات</h1>
+                    <p class="homep">فريق عمل متكامل من المهندسين المتخصصين لتقييم
+                        عقارك تقييمًا نزيهًا غير<br/> متحيزًا بناء على أسس علمية
+                        للتقييم وباستخدام الطرق التكنولوجية</p>
+                    <button class="homebtn"><a>اطلب خدمة الفحص</a></button>
+
+
+                </div>
+                <img src="images/future-building-construction-engineering-project.png"/>
+            </div>
+        </div>
+        <div class="balls">
+            <a class="small_detail" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="big_div">
+                    <div class="triangleup"></div>
+                </div>
+
+            </a>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div  class="homeiframe modal-content">
+                    <div class="modal-body">
+                        <iframe class="myhomeiframe" 
+                                src="https://www.youtube.com/embed/6QAELgirvjs?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji"
+                                title="Learn HTML In Arabic 2021 - #01 - Introduction and What I Need To Learn"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="circle">
+            <div>
+                <div class="circle_border">
+                </div>
+                <a href="#about">
+                    <img class="circlei" src="images/Group 452.svg" height="25%"/>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- about -->
+<div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" id="about" class="aboutsection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000" class="aboutdiv">
+                    <span class="homespan">تعرف علينا</span>
+                    <h2 class="abouth22"> ماذا نقدم ؟</h2>
+                    <p class="aboutp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء
+                        لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                        الخارجي للنص أو شكل توضع الفقرات في الصفحة
+                        التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                        إيبسوم لأنها تعطي توزيعاَ طبيعياَ إلى حد ما للأحرف</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                                 data-aos-duration="1000">
+                                <img class="abouticon1" src="images/172529_price_usd_tag_icon.svg"/>
+                                <span class="abouts">سعر مناسب</span>
+                            </div>
+                            <p class="p2">لوريم إيبسوم طريقة لكتابة النصوص في النشر والتصميم الجرافيكي</p>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div>
+                                <img class="abouticon2" src="images/Layer_1_1_.svg"/>
+                                <span class="abouts">فاحصين مؤهلين </span>
+                            </div>
+                            <p class="p2">لوريم إيبسوم طريقة لكتابة النصوص في النشر والتصميم الجرافيكي</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000" class="aboutimg">
+                    <img class="shape1" src="images/Group 1563.svg"/>
+                    <img data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                         data-aos-duration="1000" class="myabout" src="images/Group 457.png"/>
+                    <div>
+                        <img class="shape2" src="images/Group 1669.svg"/>
+                        <img class="shape3" src="images/Group 1547.svg"/>
+                    </div>
+                    <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                         data-aos-duration="1000" class="wcircle">
+                        <div class="car">
+                            <div  class="borderr"></div>
+                            <div  class="circlecontent">
+                                <a href="#">
+                                    <div class="srchdiv">
+                                        <div class="srchimg">
+                                            <img src="images/Icon feather-search.svg"/>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="examine">افحص عقارك مع</span>
+                                    </div>
+                                    <div>
+                                        <span class="yastdem">يستديم</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- examine items -->
+<!-- <div class="wave">
+
+</div> -->
+<div class="main_elements">
+    <div>
+        <img class="shape4" src="images/Group 1670.svg"/>
+    </div>
+    <div class="borderdiv">
+        <img class="borderimg"  src="images/borderr.svg"/>
+        <!-- <img src="images/arrow.png"></div> -->
+    </div>
+    <div class="container">
+        <div class="aboutsection1">
+            <span class="homespan">تعرف علينا</span>
+            <h2 class="abouth2">عناصر الفحص الاساسية</h2>
+        </div>
+        <div class="mycarosel">
+            <div class="owl-carousel owl-theme ThemeCoderClass2 myowl2">
+
+                <div class="item">
+                    <div class="borderrr"></div>
+                    <div class="circle22">
+                        <div class="builddiv">
+                            <img class="build1"
+                                 src="images/3250107_building_construction_contructor_professional_project_icon.svg"/>
+                        </div>
+                        <div class="gdrandiv">
+                            <span class="gdran">الجدران</span>
+                            <p class="gdranp">فحص الدهانات، آثار التسريب،
+                                الشقوق والتصدعات، سيراميك الجدران، كورنيش الجدران.</p>
+                        </div>
+                        <span class="mincircle">3</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="borderrr"></div>
+                    <div class="circle22">
+                        <div class="circlebuild">
+                            <img class="build1"  src="images/2. Door Delivery.svg"/>
+                        </div>
+                        <div class="circlegdran">
+                            <span class="gdran">الابواب</span>
+                            <p class="gdranp">فحص الدهانات، آثار التسريب،
+                                الشقوق والتصدعات، سيراميك الجدران، كورنيش الجدران.</p>
+                        </div>
+                        <span class="mincircle">4</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="borderrr"></div>
+                    <div class="circle22">
+                        <div class="gdrandiv">
+                            <img class="build1" src="images/Group 502.svg"/>
+                        </div>
+                        <div class="gdrandiv">
+                            <span class="gdran">النوافذ</span>
+                            <p class="gdranp">فحص الدهانات، آثار التسريب،
+                                الشقوق والتصدعات، سيراميك الجدران، كورنيش الجدران.</p>
+                        </div>
+                        <span class="mincircle">5</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="borderrr"></div>
+                    <div class="circle22">
+                        <div class="gdrandiv">
+                            <img class="build1 build11" src="images/Layer_1_1_ (1).svg"/>
+                        </div>
+                        <div class="gdrandiv">
+                            <span class="gdran">الكهرباء</span>
+                            <p class="gdranp">فحص الدهانات، آثار التسريب،
+                                الشقوق والتصدعات، سيراميك الجدران، كورنيش الجدران.</p>
+                        </div>
+                        <span class="mincircle">1</span>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="borderrr"></div>
+                    <div class="circle22">
+                        <div class="gdrandiv">
+                            <img class="build1"
+                                 src="images/2044987_faucet_mosque_muslim_wudhu_wudlu_icon.svg"/>
+                        </div>
+                        <div class="gdrandiv">
+                            <span class="gdran">السباكه</span>
+                            <p class="gdranp">فحص الدهانات، آثار التسريب،
+                                الشقوق والتصدعات، سيراميك الجدران، كورنيش الجدران.</p>
+                        </div>
+                        <span class="mincircle">2</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- map section -->
+
+<div class="map_section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="mapshape1">
+                    <div class="mapshape2">
+                        <img class="mapshape" src="images/Group 1547.svg"/>
+                    </div>
+                </div>
+                <div class="mapdiv">
+                    <img class="mapimg" src="images/Group 1680.png"/>
+                </div>
+                <div style="position: relative; top: -51%;">
+                <div class="mapside">
+                    <span class="homespan">تعرف علينا</span>
+                    <h2 class="abouth222">اماكن الخدمة</h2>
+                    <p class="sidemapp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                        سيلهي القارئ عن التركيز على الشكل الخارجي للنص</p>
+                    <div class="elryad">
+                        <div class="elryaddiv" >
+                            <img src="images/Group 1548.png"/>
+                            <span class="elryadspan">الرياض</span>
+                        </div>
+                        <div>
+                            <img src="images/Group 1548.png"/>
+                            <span class="elryadspan">الرياض</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div style="position: relative;">
+                <img class="mapicon" src="images/Group 1543.svg"/>
+                <img class="mapicon2" src="images/Group 1543.svg"/>
+                <img class="mapicon3" src="images/Group 1543.svg"/>
+                <img class="mapicon4" src="images/Group 1543.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- clients section -->
+<div>
+    <div>
+        <img class="shape41" src="images/Group 1670.svg"/>
+    </div>
+    <div class="container">
+        <div class="aboutsection11">
+            <span class="homespan"> اراء العملاء</span>
+            <h2 class="abouth2"> اراء عملاء نعتز بهم</h2>
+        </div>
+        <div class="mycarosel">
+            <div class="owl-carousel owl-theme ThemeCoderClass4 myowl4">
+                <div class="item">
+                    <div class="clientimgtop">
+                        <!-- <img src="images/Group 1665.svg"/> -->
+                        <div class="myclient22">
+                            <img src="images/client.png"/>
+                        </div>
+                        <div class="clientcontent">
+                            <h5>اسم تجريبي</h5>
+                            <span>هنكتب اسم وظيفة تجريبى</span>
+                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+                                المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                                الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="clientimgtop">
+                        <!-- <img src="images/Group 1665.svg"/> -->
+                        <div class="myclient22">
+                            <img src="images/client.png"/>
+                        </div>
+                        <div class="clientcontent">
+                            <h5>اسم تجريبي</h5>
+                            <span>هنكتب اسم وظيفة تجريبى</span>
+                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+                                المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                                الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="clientimgtop">
+                        <!-- <img src="images/Group 1665.svg"/> -->
+                        <div class="myclient22">
+                            <img src="images/client.png"/>
+                        </div>
+                        <div class="clientcontent">
+                            <h5>اسم تجريبي</h5>
+                            <span>هنكتب اسم وظيفة تجريبى</span>
+                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+                                المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                                الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bodyimgdiv">
+        <img class="bodyimg" src="images/Group 1667.svg"/>
+    </div>
+</div>
+
+
+<!-- blog -->
+<div>
+    <div class="container">
+        <div class="aboutsection11">
+            <span class="homespan">  المدونة</span>
+            <h2 class="abouth2"> المدونة</h2>
+        </div>
+        <div class="mycarosel">
+            <div class="owl-carousel owl-theme ThemeCoderClass5 myowl5">
+                <div class="item">
+                    <div class="blogitem2">
+                        <div>
+                            <img class="blogimg" src="images/giant-building-with-sun.png"/>
+                        </div>
+                        <div class="blogcontent">
+                            <div class="datediv">
+                                <i class="fa fa-clock clocki"></i>
+                                <span class="clockdate">2يناير</span>
+                                <span class="clockyear">2022</span>
+                            </div>
+                            <h5 class="myh5">اسم تجريبي</h5>
+                            <p class="blogp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما</p>
+                            <a href="#" class="morebtn1">
+                                <div class="morebtndiv">
+                                    <span class="morebtn">المزيد</span>
+                                    <img class="moreimg" src="images/Path 8317.svg"/>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blogitem">
+                        <div>
+                            <img src="images/low-angle-view-skyscrapers.png"/>
+                        </div>
+                        <div class="blogcontent">
+                            <div class="datediv">
+                                <i class="fa fa-clock clocki"></i>
+                                <span class="clockdate">2يناير</span>
+                                <span class="clockyear">2022</span>
+                            </div>
+                            <h5 class="myh5">اسم تجريبي</h5>
+                            <p class="blogp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما</p>
+                            <a href="#" class="morebtn1">
+                                <div class="morebtndiv">
+                                    <span class="morebtn">المزيد</span>
+                                    <img class="moreimg" src="images/Path 8317.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blogitem">
+                        <div>
+                            <img src="images/bussiness.png"/>
+                        </div>
+                        <div class="blogcontent">
+                            <div class="datediv">
+                                <i class="fa fa-clock clocki"></i>
+                                <span class="clockdate">2يناير</span>
+                                <span class="clockyear">2022</span>
+                            </div>
+                            <h5 class="myh5">اسم تجريبي</h5>
+                            <p class="blogp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما</p>
+                            <a href="#" class="morebtn1">
+                                <div class="morebtndiv">
+                                    <span class="morebtn">المزيد</span>
+                                    <img class="moreimg" src="images/Path 8317.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shapeblog">
+                <img class="shapeblogimg" src="images/Group 1547.svg"/>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="shape44" src="images/Group 1670.svg"/>
+    </div>
+</div>
+
+
+<!-- footer -->
+<foote>
+    <div class="myfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3 ">
+                    <div>
+                        <img class="footerlogo" src="images/Blokka (3).png"/>
+                    </div>
+                    <div>
+                        <p class="footerp">
+                            هناك حقيقة مثبتة منذ زمن
+                            طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+                            القارئ عن التركيز على الشكل الخارجي للنص
+                        </p>
+                    </div>
+                    <div>
+                        <button class="visa"><a><img src="images/visa.png"/></a></button>
+                        <button class="paypal"><a><img src="images/paypal.png"/></a></button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div class="pages">
+                        <h5 class="footerh5">الصفحات</h5>
+                        <ul class="p1">
+                            <li><a href="#"> عن يستديم</a></li>
+                            <li><a href="#">اعمالنا </a></li>
+                            <li><a href="#"> المدونة</a></li>
+                            <li><a href="#"> تواصل معنا</a></li>
+                            <li><a href="#"> تسجيل كفحص</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div>
+                      <h5 class="footerh5">الصفحات</h5>
+                     <a><span class="p1">عن يستديم</span></a>
+                      <br/>
+                     <a><span class="p2">اعمالنا</span></a>
+                      <br/>
+                      <a><span class="p3">المدونة</span></a>
+                      <br/>
+                      <a><span class="p4">تواصل معنا</span></a>
+                      <br/>
+                      <a><span class="p5">تسجيل كفاحص</span></a>
+                    </div> -->
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div>
+                        <h5 class="footerh5 footerh555">المزيد</h5>
+                        <ul class="p1">
+                            <li><a href="#">الشروط والاحكم</a></li>
+                            <li><a href="#">سياسة الخصوصية</a></li>
+                            <li><a href="#">الشكاوي والاقتراحات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <h5 class="footerh55 footerh5555">النشرة الاخبارية</h5>
+                    <p class="p11">ابق على تواصل معنا ليصلك كل جديد</p>
+                    <div class="inputdiv">
+                        <form>
+                            <input type="text" class="form-control myinput" placeholder="ادخل بريدك الالكترونى"/>
+                            <img class="material" src="images/Icon material-email.png"/>
+                            <button class="inputicon">
+                                <img class="inputicon2" src="images/Icon ionic-ios-send.png"/>
+                            </button>
+                        </form>
+                        <!-- <i class="fa fa-location-arrow inputicon"></i> -->
+                    </div>
+                    <div class="footersocial">
+                        <a href="#" class="face"> <img class="faceimg" src="images/Icon awesome-facebook-f (1).svg"/>
+                        </a>
+                        <a href="#" class="face face2"> <img src="images/Icon awesome-linkedin-in.png"/> </a>
+                        <a href="#" class="face"> <img src="images/Icon ionic-logo-twitter.svg"/> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="lastfooter">
+                <span class="lastfooterp">جميع الحقوق محفوظة لدى يستديم - 2022</span>
+                <img src="images/PUIUX_LOGO.png"/>
+            </div>
+        </div>
+        <div>
+            <img class="shape444" src="images/Group 1669.svg"/>
+        </div>
+        <div>
+            <img class="shape33" src="images/Group 1547.svg"/>
+        </div>
+    </div>
+</foote>
+<!-- js files -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampleModal").on('hidden.bs.modal', function (e) {
+            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
+            var $v = $(e.delegateTarget).find('video');
+            $v[0].pause();
+        });
+// variables 
+        var toTop = $('.to-top');
+// logic
+        toTop.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('html, body').offset().top,
+            });
+        });
+
+    });
+
+    // Get this script ready when the page loads
+    $(document).ready(function () {
+//   Create a function
+        $(".scrollDown").click(function (event) {
+//       Select the body of the page and scroll down by 650 pixels worth
+            $("html, body").animate({scrollTop: $('.backimg').offset().top}, 1000);
+        });
+    });
+</script>
+<script>
+    $('.overlay-content form').hide();
+
+    function openSearch() {
+        $('#myOverlay').fadeIn(2000);
+        $('.overlay-content form').fadeIn(1000).addClass('active');
+        $('.overlay-content form').removeClass('unactive');
+        //   $('.overlay-content form').delay(2000).slideDown(2000);
+    }
+
+    function closeSearch() {
+        $('#myOverlay').fadeOut(2000);
+        $('.overlay-content form').removeClass('active');
+        $('.overlay-content form').fadeIn(1000).addClass('unactive');
+    }
+</script>
+
+<script type='text/javascript'>
+    $(function(){
+    var overlay = $('<div id="overlay"></div>');
+    overlay.show();
+    overlay.appendTo(document.body);
+    $('.popup').show();
+    $('.close').click(function(){
+    $('.popup').hide();
+    overlay.appendTo(document.body).remove();
+    return false;
+    });
+    
+    
+     
+    
+    $('.x').click(function(){
+    $('.popup').hide();
+    overlay.appendTo(document.body).remove();
+    return false;
+    });
+    });
+    </script>
+
+</body>
+</html>    

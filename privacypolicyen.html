@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YASTAEEM</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- css files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/styleen.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    
+</head>
+<body>
+
+
+<div class="load-bar">
+    <div class="linear"></div>
+</div>
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="/action_page.php">
+            <input type="text" placeholder="كلمة البحث ...." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<!-- topheader -->
+<div class="container">
+    <div class="topheader">
+        <div>
+            <ul class="topheaderul">
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+                <li><a href="#">الشكاوي والاقتراحات</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="dropdown langdrop">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <span class="langspan">English</span>
+                    <img class="langi" src="images/Icon material-language.svg"/>
+                </button>
+                <ul class="dropdown-menu langmenu">
+                    <li><a class="dropdown-item" href="indexrtl.html">العربية</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<!-- navbar -->
+<div class="homebackground">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbarbrand" href="#">
+                <img class="logo" src="images/logo.png"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle balokkali" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            عن يستديم
+                            <i class="fa fa-angle-down balokkai"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif1">
+                                    <div>
+                                        <img class="eye" src="images/Group 1616.svg"/>
+                                        <span class="eyespan"> رؤيتنا </span>
+                                        <i  class=" eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif1">
+                                    <div>
+                                        <img class="eye"
+                                             src="images/6646376_dart_essentials_goal_mission_success_icon (1).svg"/>
+                                        <span class="eyespan"> رسالتنا </span>
+                                        <i class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <div class="notif3">
+                                    <div>
+                                        <img class="eye" src="images/6619592_goal_keyword_seo_target_icon.svg"/>
+                                        <span class="eyespan"> اهدافنا </span>
+                                        <i  class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="#">اعمالنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="#">المدونة</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link4" aria-current="page" href="#"> تواصل معنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link5" aria-current="page" href="#">تسجيل كفاحص</a>
+                    </li>
+
+
+                </ul>
+
+                <div class="btns">
+                    <img onclick="openSearch()" class="srchicon" src="images/searchicon.svg"/>
+                    <a href="#" class="loginbtn">تسجيل الدخول</a>
+                    <a href="#" class="servicebtn">طلب الخدمة</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+</div>
+
+
+
+
+<!-- blog -->
+
+<div class="blog">
+    <div class="container">
+      <div class="myposition">
+       <img class="blogimg"  src="images/future-building-construction-engineering-project.png"/>
+       <div style="text-align: center; position: absolute; top: 50%; left: 50%; margin: auto;transform: translate(-50%, -50%);">
+       <h2 style="font-size: 62px; font-weight: bold; color: #fff;"> سياسه الخصوصية</h2>
+       </div>
+      </div> 
+    </div>
+  </div>
+
+  
+  <!-- privacy policy first section -->
+
+<div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+data-aos-duration="1000" class="fpolicy">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-7">
+           <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+           data-aos-duration="1000" class="policycontent">
+              <div>
+                <h2 class="abouth22 policyh2"> سياستنا</h2>
+                <p class="policyp">عند استخدامك لموقع يستديم فهذا يعني أنك تستأمننا على بياناتك ومعلوماتك، 
+                    ونحن ندرك مدى حجم هذه المسؤولية، ونعمل بإخلاص لحماية بياناتك، 
+                    ونسمح لك بالتحكم فيها حيث توضح سياسة الخصوصية الأساس الذي سنقوم بموجبه
+                     بالتعامل مع أي بيانات أو معلومات عنك وسبب جمعها،
+                     وكذلك طريقة تحديثها</p>
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000" style="display: flex;" class="policyf policyf">
+                    <img src="images/icons(1).svg"/>
+                    <p class="policyspan">يُرجى قراءة ما يلي بعناية لفهم ممارساتنا
+                         فيما يتعلق ببياناتك ومعلوماتك. فبمجرد دخولك 
+                        أو تسجيلك في الموقع فإنك توافق على سياسة الخصوصية هذه.</p>
+                </div>     
+              </div>
+           </div>
+         </div>
+         <div class="col-md-5">
+           <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+           data-aos-duration="1000" class="mycenter">
+             <img class="mycenterimg" src="images/privacypolicy.svg"/>
+           </div>
+         </div>
+      </div>
+      <hr class="policyhr"/>
+   </div> 
+</div>
+
+  <!-- privacy policy second section -->
+
+ <div class="myspolicy">
+   <div class="container">
+     <div class="col-md-12">
+        <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000" class="policys">
+        <div class="policyf ">
+            <span class="nspan">1</span>
+            <h3 class="policyh3">البيانات التي نجمعها منك</h3>
+        </div>
+        <span class="policyspan policyspann"> قد نستخدم لبيانات فى الحالات التالية :</span>
+        <div class="policyf ff formfff">
+            <i class="fa fa-check"></i>
+            <p>لتزويدك بالمعلومات أو الخدمات التي تطلبها منا أو نرى أنك قد تكون مهتماً بها، 
+                وحيث قمت بالموافقة على أن يتم الاتصال بك لمثل هذه الأغراض</p>
+        </div>
+
+        <div class="policyf formfff formffff">
+            <i class="fa fa-check"></i>
+            <p>لتزويدك بالخدمات المعتمدة على المكان الذي توجد فيه،
+                 مثل الإعلان ونتائج البحث ومحتويات 
+                أخرى مخصصة لك</p>
+        </div>
+
+        <div class="policyf formfff">
+            <i class="fa fa-check"></i>
+            <p>لتحسين خدماتنا وتقديم خدمات أفضل ومخصصة بدرجة أكبر</p>
+        </div>
+
+        <div class="policyf formfff formffff">
+            <i class="fa fa-check"></i>
+            <p>لتحسين خدماتنا وتقديم خدمات أفضل ومخصصة بدرجة أكبر</p>
+        </div>
+
+        <div class="policyf formfff ">
+            <i class="fa fa-check"></i>
+            <p>لضمان تقديم محتوى موقعنا بأكثر الطرق فاعلية 
+                لك وللجهاز الذي تستخدمه للوصول إلى موقعنا</p>
+        </div>
+
+        <div class="policyf formfff formffff">
+            <i class="fa fa-check"></i>
+            <p>لإخطارك بالتغييرات التي يجريها موقعنا</p>
+        </div>
+
+        <div class="policyf formfff">
+            <i class="fa fa-check"></i>
+            <p>لأي سبب آخر نراه ضرورياً لتعزيز تجربة تصفحك للموقع</p>
+        </div>
+        </div>
+     </div>
+   </div> 
+ </div>
+
+
+   <!-- privacy policy third section -->
+
+   <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+   data-aos-duration="1000">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="policys">
+         <div class="policyf policyfffff">
+             <span class="nspan">2</span>
+             <h3 class="policyh3">ما هي معايير الحماية التي نطبقها؟</h3>
+         </div>
+         <div class="policyf formfff">
+             <i class="fa fa-check"></i>
+            <p>يتخذ موقع يستديم الخطوات اللازمة من الناحية 
+                التقنية، التجارية، الفنية، والإدارية لضمان 
+                التعامل مع البيانات بأمان وبما يتماشى مع سياسة الخصوصية هذه، وذلك لحماية البيانات من 
+                الوصول إليها بشكل غير مصرح به، أو تغييرها، أو الإفصاح عنها أو إتلافها. 
+                ومن الممكن أن نستخدم تقنية إلكترونية مشفرة
+                 لحماية البيانات أثناء إرسالها إلى موقعنا، بالإضافة 
+                إلى جدار حماية إلكتروني خارجي، وتقنية جدار حماية
+                 إلكتروني على الكمبيوتر المضيف لموقعنا
+                 حتى نتمكن من صد الهجمات الضارة على الشبكة</p>
+         </div>
+ 
+         <div class="policyf formfff formffff">
+             <i class="fa fa-check"></i>
+             <p>من المهم بالنسبة لك التأكد من 
+                حماية كلمة المرور الخاصة بك والجهاز الذي تستخدمه للوصول 
+                إلى موقع يستديم لتجنب أي وصول غير مصرح به من الغير. وتتحمل أنت وحدك مسؤولية 
+                الحفاظ على كلمة المرور الخاصة بك في سرية تامة،
+                 على سبيل المثال، تأكد من تسجيل 
+                الخروج بعد الانتهاء من استخدام 
+                أحد الأجهزة ذات الاستخدام المشترك</p>
+         </div>
+ 
+         <div class="policyf formfff">
+             <i class="fa fa-check"></i>
+             <p>ان إرسال البيانات عبر الإنترنت غير آمن تماماً. 
+                وعلى الرغم من ذلك، سنبذل قصارى جهدنا لحماية
+                 البيانات، إلا أننا لا نضمن حماية البيانات المرسلة إلى موقع يستديم،
+                  وتتحمل أنت وحدك تبعات مخاطر إرسال أي بيانات</p>
+         </div>
+        </div>
+        
+      </div>
+    </div> 
+  </div>
+
+
+     <!-- privacy policy fourth section -->
+
+     <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" class="thpolicy">
+        <div class="container">
+          <div class="col-md-10">
+            <div class="policys">
+             <div class="policyf policyfffff">
+                 <span class="nspan">3</span>
+                 <h3 class="policyh3">تغيير سياسة الخصوصية</h3>
+             </div>
+             <div class="policyf formfff">
+                 <i class="fa fa-check"></i>
+                <p>قد تتغير سياسة الخصوصية في أي وقت نتيجة
+                     لأي تغيير نراه مناسب في موقع يستديم، 
+                    وسيتم نشر سياسة الخصوصية الجديدة عبر الموقع</p>
+             </div>
+     
+             <div class="policyf formfff formffff">
+                 <i class="fa fa-check"></i>
+                 <p>ينبغي عليك التحقق بزيارتك المتكررة للموقع 
+                    لمشاهدة أي تغييرات تطرأ على سياسة الخصوصية، 
+                    حيث أن استمرارك في استخدام الموقع يعني موافقتك وقبولك لهذه
+                     التغييرات الحادثة بسياسة الخصوصية</p>
+             </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+
+<!-- footer -->
+<footer>
+    <div class="myfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3 ">
+                    <div>
+                        <img class="footerlogo" src="images/Blokka (3).png"/>
+                    </div>
+                    <div>
+                        <p class="footerp">
+                            هناك حقيقة مثبتة منذ زمن
+                            طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+                            القارئ عن التركيز على الشكل الخارجي للنص
+                        </p>
+                    </div>
+                    <div>
+                        <button class="visa"><a><img src="images/visa.png"/></a></button>
+                        <button class="paypal"><a><img src="images/paypal.png"/></a></button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div class="pages">
+                        <h5 class="footerh5">الصفحات</h5>
+                        <ul class="p1">
+                            <li><a href="#"> عن يستديم</a></li>
+                            <li><a href="#">اعمالنا </a></li>
+                            <li><a href="#"> المدونة</a></li>
+                            <li><a href="#"> تواصل معنا</a></li>
+                            <li><a href="#"> تسجيل كفحص</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div>
+                      <h5 class="footerh5">الصفحات</h5>
+                     <a><span class="p1">عن يستديم</span></a>
+                      <br/>
+                     <a><span class="p2">اعمالنا</span></a>
+                      <br/>
+                      <a><span class="p3">المدونة</span></a>
+                      <br/>
+                      <a><span class="p4">تواصل معنا</span></a>
+                      <br/>
+                      <a><span class="p5">تسجيل كفاحص</span></a>
+                    </div> -->
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div>
+                        <h5 class="footerh5 footerh555">المزيد</h5>
+                        <ul class="p1">
+                            <li><a href="#">الشروط والاحكم</a></li>
+                            <li><a href="#">سياسة الخصوصية</a></li>
+                            <li><a href="#">الشكاوي والاقتراحات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <h5 class="footerh55 footerh5555">النشرة الاخبارية</h5>
+                    <p class="p11">ابق على تواصل معنا ليصلك كل جديد</p>
+                    <div class="inputdiv">
+                        <form>
+                            <input type="text" class="form-control myinput" placeholder="ادخل بريدك الالكترونى"/>
+                            <img class="material" src="images/Icon material-email.png"/>
+                            <button class="inputicon">
+                                <img class="inputicon2" src="images/Icon ionic-ios-send.png"/>
+                            </button>
+                        </form>
+                        <!-- <i class="fa fa-location-arrow inputicon"></i> -->
+                    </div>
+                    <div class="footersocial">
+                        <a href="#" class="face"> <img class="faceimg" src="images/Icon awesome-facebook-f (1).svg"/>
+                        </a>
+                        <a href="#" class="face face2"> <img src="images/Icon awesome-linkedin-in.png"/> </a>
+                        <a href="#" class="face"> <img src="images/Icon ionic-logo-twitter.svg"/> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="lastfooter">
+                <span class="lastfooterp">جميع الحقوق محفوظة لدى يستديم - 2022</span>
+                <img src="images/PUIUX_LOGO.png"/>
+            </div>
+        </div>
+        <div>
+            <img style="top:136em;" class="shape444" src="images/Group 1669.svg"/>
+        </div>
+        <div>
+            <img style="bottom: -1680px;" class="shape33" src="images/Group 1547.svg"/>
+        </div>
+    </div>
+</footer>
+<!-- js files -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampleModal").on('hidden.bs.modal', function (e) {
+            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
+            var $v = $(e.delegateTarget).find('video');
+            $v[0].pause();
+        });
+// variables 
+        var toTop = $('.to-top');
+// logic
+        toTop.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('html, body').offset().top,
+            });
+        });
+
+    });
+
+    // Get this script ready when the page loads
+    $(document).ready(function () {
+//   Create a function
+        $(".scrollDown").click(function (event) {
+//       Select the body of the page and scroll down by 650 pixels worth
+            $("html, body").animate({scrollTop: $('.backimg').offset().top}, 1000);
+        });
+    });
+</script>
+<script>
+    $('.overlay-content form').hide();
+
+    function openSearch() {
+        $('#myOverlay').fadeIn(2000);
+        $('.overlay-content form').fadeIn(1000).addClass('active');
+        $('.overlay-content form').removeClass('unactive');
+        //   $('.overlay-content form').delay(2000).slideDown(2000);
+    }
+
+    function closeSearch() {
+        $('#myOverlay').fadeOut(2000);
+        $('.overlay-content form').removeClass('active');
+        $('.overlay-content form').fadeIn(1000).addClass('unactive');
+    }
+</script>
+
+</body>
+</html>        

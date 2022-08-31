@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YASTAEEM</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- css files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/styleen.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    
+</head>
+<body>
+
+
+<div class="load-bar">
+    <div class="linear"></div>
+</div>
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="/action_page.php">
+            <input type="text" placeholder="كلمة البحث ...." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<!-- topheader -->
+<div class="container">
+    <div class="topheader">
+        <div>
+            <ul class="topheaderul">
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="privacypolicyen.html">سياسة الخصوصية</a></li>
+                <li><a href="#">الشكاوي والاقتراحات</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="dropdown langdrop">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <span class="langspan">English</span>
+                    <img class="langi" src="images/Icon material-language.svg"/>
+                </button>
+                <ul class="dropdown-menu langmenu">
+                    <li><a class="dropdown-item" href="aboutyastadeem.html">العربية</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<!-- navbar -->
+<div class="homebackground">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbarbrand" href="indexrtl.html">
+                <img class="logo" src="images/logo.png"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link active" aria-current="page" href="indexrtl.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle balokkali" href="aboutyastadeemen.html" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            عن يستديم
+                            <i class="fa fa-angle-down balokkai"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#ourseen">
+                                <div class="notif1">
+                                    <div>
+                                        <img class="eye" src="images/Group 1616.svg"/>
+                                        <span class="eyespan"> رؤيتنا </span>
+                                        <i  class=" eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#ourmsg">
+                                <div class="notif1">
+                                    <div>
+                                        <img class="eye"
+                                             src="images/6646376_dart_essentials_goal_mission_success_icon (1).svg"/>
+                                        <span class="eyespan"> رسالتنا </span>
+                                        <i class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <li><a class="dropdown-item" href="#ourgoals">
+                                <div class="notif3">
+                                    <div>
+                                        <img class="eye" src="images/6619592_goal_keyword_seo_target_icon.svg"/>
+                                        <span class="eyespan"> اهدافنا </span>
+                                        <i  class="eye2 fa fa-arrow-left"></i>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                </div>
+                            </a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="#">اعمالنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link3" aria-current="page" href="blogen.html">المدونة</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link4" aria-current="page" href="contactusen.html"> تواصل معنا</a>
+                    </li>
+                    <li class="nav-item nav-item1 li1">
+                        <a class="nav-link  link5" aria-current="page" href="joinusen.html">تسجيل كفاحص</a>
+                    </li>
+
+
+                </ul>
+
+                <div class="btns">
+                    <img onclick="openSearch()" class="srchicon" src="images/searchicon.svg"/>
+                    <a href="loginen.html" class="loginbtn">تسجيل الدخول</a>
+                    <a href="serviceorderen.html" class="servicebtn">طلب الخدمة</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+</div>
+
+
+
+
+<!-- blog -->
+
+<div class="blog">
+    <div class="container">
+      <div class="myposition">
+       <img class="blogimg"  src="images/future-building-construction-engineering-project.png"/>
+       <div style="text-align: center; position: absolute; top: 50%; left: 50%; margin: auto;transform: translate(-50%, -50%);">
+       <h2 style="font-size: 62px; font-weight: bold; color: #fff;">عن يستديم</h2>
+       </div>
+      </div> 
+    </div>
+  </div>
+
+  
+
+  <div>
+    <img class="shapeblog41" src="images/Group 1670.svg"/>
+</div>
+<div>
+    <img class="shapeblog44" src="images/Group 1670.svg"/>
+</div>
+<!-- about -->
+<div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" id="about" class="aboutsection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000" class="aboutdiv">
+                    <span class="homespan">تعرف علينا</span>
+                    <h2 class="abouth22"> ماذا نقدم ؟</h2>
+                    <p class="aboutp">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء
+                        لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                        الخارجي للنص أو شكل توضع الفقرات في الصفحة
+                        التي يقرأها. ولذلك يتم استخدام طريقة لوريم
+                        إيبسوم لأنها تعطي توزيعاَ طبيعياَ إلى حد ما للأحرف</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                                 data-aos-duration="1000">
+                                <img class="abouticon1" src="images/172529_price_usd_tag_icon.svg"/>
+                                <span class="abouts">سعر مناسب</span>
+                            </div>
+                            <p class="p2">لوريم إيبسوم طريقة لكتابة النصوص في النشر والتصميم الجرافيكي</p>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div>
+                                <img class="abouticon2" src="images/Layer_1_1_.svg"/>
+                                <span class="abouts">فاحصين مؤهلين </span>
+                            </div>
+                            <p class="p2">لوريم إيبسوم طريقة لكتابة النصوص في النشر والتصميم الجرافيكي</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000" class="aboutimg">
+                    <img class="shape1" src="images/Group 1563.svg"/>
+                    <img data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                         data-aos-duration="1000" class="myabout" src="images/Group 457.png"/>
+                    <div>
+                        <img class="shape2" src="images/Group 1669.svg"/>
+                        <img class="shape3" src="images/Group 1547.svg"/>
+                    </div>
+                    <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                         data-aos-duration="1000" class="wcircle">
+                        <div class="car">
+                            <div  class="borderr"></div>
+                            <div  class="circlecontent">
+                                <a href="sidebaren.html">
+                                    <div class="srchdiv">
+                                        <div class="srchimg">
+                                            <img src="images/Icon feather-search.svg"/>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="examine">افحص عقارك مع</span>
+                                    </div>
+                                    <div>
+                                        <span class="yastdem">يستديم</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- about second section -->
+<div style="direction: ltr;" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+data-aos-duration="1000" id="about"  class="aboutpage">
+    <div class="container">
+        <div class="row">
+            <div id="ourseen" class="col-md-6">
+               <div class="mycenter">
+                  <h2>01</h2>
+                  <h3>رؤيتنا</h3>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+               data-aos-duration="1000" class="aboutpagediv">
+                 <img class="aboutbigimg" src="images/Group 1913.svg"/>
+                <img class="abouticonimg" src="images/6646376_dart_essentials_goal_mission_success_icon (6).svg"/>
+                <p class="aboutpagep">ان تصبح الاختيار الاول والايسر لاي شخص بطلب خدمة الفحص العقاري في المملكه العربية السعودية</p>
+               </div> 
+            </div>
+
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000" class="aboutpagediv">
+                    <img class="aboutbigimgg" src="images/Group 1914.svg"/>
+                    <img class="abouticonimgg" src="images/353411_circle_eye_icon (2).svg"/>
+                    <p class="aboutpagepp">التوسع والانتشار في جميع مدن المملكه العربية السعودية <br/>ومساعده جميع الفاحصين على عرض خدماتهم الكترونيا<br/>  بسهوله ويسر</p>
+                  </div> 
+            </div>
+            <div id="ourmsg" class="col-md-6">
+                <div class="mycenter">
+                    <h2>02</h2>
+                    <h3>رسالتنا</h3>
+                 </div>
+            </div>
+
+            <div id="ourgoals" class="col-md-6">
+                <div class="mycenter">
+                    <h2>03</h2>
+                    <h3>اهدافنا</h3>
+                 </div>
+            </div>
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000" class="aboutpagediv">
+                  <img class="aboutbigimg" src="images/Group 1913.svg"/>
+                 <img class="abouticonimg" src="images/9004724_target_goal_aim_focus_icon.svg"/>
+                 <p class="aboutpagep">تسهيل وصول خدمة فحص العقارات لطالبيها بالمصداقيه والحرفيه المطلوبة وباقل سعر للخدمه</p>
+                </div> 
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+  
+
+
+
+<!-- footer -->
+<footer>
+    <div class="myfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3 ">
+                    <div>
+                       <a href="indexrtl.html"> <img class="footerlogo" src="images/Blokka (3).png"/> </a>
+                    </div>
+                    <div>
+                        <p class="footerp">
+                            هناك حقيقة مثبتة منذ زمن
+                            طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+                            القارئ عن التركيز على الشكل الخارجي للنص
+                        </p>
+                    </div>
+                    <div>
+                        <button class="visa"><a><img src="images/visa.png"/></a></button>
+                        <button class="paypal"><a><img src="images/paypal.png"/></a></button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div class="pages">
+                        <h5 class="footerh5">الصفحات</h5>
+                        <ul class="p1">
+                            <li><a href="aboutyastadeemen.html"> عن يستديم</a></li>
+                            <li><a href="#">اعمالنا </a></li>
+                            <li><a href="blogen.html"> المدونة</a></li>
+                            <li><a href="contactusen.html"> تواصل معنا</a></li>
+                            <li><a href="joinusen.html"> تسجيل كفحص</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div>
+                      <h5 class="footerh5">الصفحات</h5>
+                     <a><span class="p1">عن يستديم</span></a>
+                      <br/>
+                     <a><span class="p2">اعمالنا</span></a>
+                      <br/>
+                      <a><span class="p3">المدونة</span></a>
+                      <br/>
+                      <a><span class="p4">تواصل معنا</span></a>
+                      <br/>
+                      <a><span class="p5">تسجيل كفاحص</span></a>
+                    </div> -->
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div>
+                        <h5 class="footerh5 footerh555">المزيد</h5>
+                        <ul class="p1">
+                            <li><a href="#">الشروط والاحكم</a></li>
+                            <li><a href="privacypolicyen.html">سياسة الخصوصية</a></li>
+                            <li><a href="#">الشكاوي والاقتراحات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <h5 class="footerh55 footerh5555">النشرة الاخبارية</h5>
+                    <p class="p11">ابق على تواصل معنا ليصلك كل جديد</p>
+                    <div class="inputdiv">
+                        <form>
+                            <input type="text" class="form-control myinput" placeholder="ادخل بريدك الالكترونى"/>
+                            <img class="material" src="images/Icon material-email.png"/>
+                            <button class="inputicon">
+                                <img class="inputicon2" src="images/Icon ionic-ios-send.png"/>
+                            </button>
+                        </form>
+                        <!-- <i class="fa fa-location-arrow inputicon"></i> -->
+                    </div>
+                    <div class="footersocial">
+                        <a href="https://www.facebook.com" class="face"> <img class="faceimg" src="images/Icon awesome-facebook-f (1).svg"/>
+                        </a>
+                        <a href="https://www.linkedin.com" class="face face2"> <img src="images/Icon awesome-linkedin-in.png"/> </a>
+                        <a href="https://www.twitter.com" class="face"> <img src="images/Icon ionic-logo-twitter.svg"/> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="lastfooter">
+                <span class="lastfooterp">جميع الحقوق محفوظة لدى يستديم - 2022</span>
+               <a href="https://puiux.com/"><img src="images/PUIUX_LOGO.png"/></a>
+            </div>
+        </div>
+        <div>
+            <img style="top:122em;" class="shape444" src="images/Group 1669.svg"/>
+        </div>
+        <div>
+            <img style="bottom: -1680px;" class="shape33" src="images/Group 1547.svg"/>
+        </div>
+    </div>
+</footer>
+<!-- js files -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampleModal").on('hidden.bs.modal', function (e) {
+            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
+            var $v = $(e.delegateTarget).find('video');
+            $v[0].pause();
+        });
+// variables 
+        var toTop = $('.to-top');
+// logic
+        toTop.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('html, body').offset().top,
+            });
+        });
+
+    });
+
+    // Get this script ready when the page loads
+    $(document).ready(function () {
+//   Create a function
+        $(".scrollDown").click(function (event) {
+//       Select the body of the page and scroll down by 650 pixels worth
+            $("html, body").animate({scrollTop: $('.backimg').offset().top}, 1000);
+        });
+    });
+</script>
+<script>
+    $('.overlay-content form').hide();
+
+    function openSearch() {
+        $('#myOverlay').fadeIn(2000);
+        $('.overlay-content form').fadeIn(1000).addClass('active');
+        $('.overlay-content form').removeClass('unactive');
+        //   $('.overlay-content form').delay(2000).slideDown(2000);
+    }
+
+    function closeSearch() {
+        $('#myOverlay').fadeOut(2000);
+        $('.overlay-content form').removeClass('active');
+        $('.overlay-content form').fadeIn(1000).addClass('unactive');
+    }
+</script>
+
+</body>
+</html>      
