@@ -914,7 +914,7 @@ html {
     top: 35%;
     width: 50px !important;
     position: absolute;
-    right: 4px;
+    left: 4px;
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto!important;
@@ -923,7 +923,7 @@ html {
     top: 147%;
     width: 50px !important;
     position: absolute;
-    right: 20%;
+    left: 20%;
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto!important;
@@ -932,7 +932,7 @@ html {
     top: 66%;
     width: 50px !important;
     position: absolute;
-    right: 20%;
+    left: 20%;
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto!important;
@@ -941,7 +941,7 @@ html {
     top: 176%;
     width: 50px !important;
     position: absolute;
-    right: 1%;
+    left: 1%;
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto!important;
@@ -950,7 +950,7 @@ html {
     top: 213%;
     width: 50px !important;
     position: absolute;
-    right: 20%;
+    left: 20%;
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto!important;
@@ -2598,7 +2598,7 @@ input[type="file"] {
     position: absolute;
     content: "";
     top: 42px;
-    right: 2px;
+    left: 2px;
     background-color: #032F55;
     width: 79px;
     height: 4px;
@@ -2613,7 +2613,7 @@ input[type="file"] {
     position: absolute;
     content: "";
     top: 42px;
-    right: 2px;
+    left: 2px;
     background-color: #032F55;
     width: 79px;
     height: 4px;
@@ -2943,7 +2943,7 @@ input[type="file"] {
     color: #032F55;
     font-weight: bold;
     font-size: 20px;
-    margin-right: 0.5em;
+    margin-left: 1.5em;
 }
 .taskicons{
     display: flex;
@@ -2987,7 +2987,7 @@ input[type="file"] {
     overflow-y: auto;
     margin-right: 1em;
     overflow-x: hidden;
-    direction: ltr;
+    direction: rtl;
     margin-top: 5em;
 }
 .taskcontent{
@@ -2995,7 +2995,7 @@ input[type="file"] {
     border-radius: 15px;
     padding: 1em 4em;
     margin: 1em 0;
-    direction: rtl;
+    direction: ltr;
     margin-right: 1em;
 }
 .messiondiv{
@@ -4222,8 +4222,9 @@ right: 0.7em;
 }
 .fspaninput{
     position: absolute;
-    left: 1em;
-    top: 0.5em;
+    left: 25em;
+    right: 2em;
+    top: 1.5em;
     color: #707070;
     font-size: 14px;
 }
@@ -4298,4 +4299,20 @@ right: 0.7em;
     left: 333px;
     right: auto;
     box-shadow: -50px -36px 0 #032f55!important;
+}
+.shapee30000{
+    left: 21%;
+}
+.sama9:after {
+    content: "";
+    position: absolute;
+    bottom: -1323px;
+    /* left: 3px; */
+    left: 328px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: bottom;
+    box-shadow: 16px -25px 0 #032f55;
+    transform: rotate(200deg);
 }

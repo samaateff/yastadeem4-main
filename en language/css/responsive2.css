@@ -1,0 +1,11 @@
+@media only screen and (max-width:5464px) and (min-width:1820px){
+    .list.active > a{
+        min-width: 108% !important;
+    }
+    .navigation .drop-down-menu > .active {
+        width: 113% !important;
+    }
+    .mapdivv:after{
+        display: none;
+    }
+}
