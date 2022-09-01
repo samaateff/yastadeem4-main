@@ -5311,3 +5311,6 @@ form.unactive {
     color: #032F55 !important;
 
 }
+.aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
+    min-height: 100vh;
+}
