@@ -1443,6 +1443,9 @@
     }
 }
 @media only screen and (max-width: 1300px) and (min-width: 300px){
+    .abouth222:after{
+        display: none;
+    }
     .navigation .drop-down-menu > .active {
         width: 93% !important;
     }
@@ -1960,3 +1963,44 @@
         display: none;
     }
 }
+
+
+
+
+@media only screen and (max-width:5464px) and (min-width:1380px){
+
+.circle {
+    right: 6em;
+    /* transform: none; */
+}
+.myfooter{
+    padding: 104px 137px 132px 137px;
+}
+.mapdivv:after{
+    display: none;
+}
+.sama9:after{
+    display: none;
+}
+.shape3000000{
+    display: none;
+}
+.shape3000 {
+    display: none;
+}
+.shape300000{
+display: none;
+}
+.homecontent{
+    margin-top: 5em;
+}
+.myowl4 .center .item .clientcontent p{
+    width: 94%;
+}
+}
+/* @media only screen and (max-width:2000px) and (min-width:1380px){
+    .circle {
+        right: 6em;
+        
+    }
+} */

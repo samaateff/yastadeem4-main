@@ -1,0 +1,46 @@
+.topheader{
+    direction: ltr;
+}
+.homebackground{
+    direction: ltr;
+}
+.homecontent{
+    direction: ltr;
+
+}
+.homeh1{
+    text-align: left;
+}
+.homeh1:after{
+    left: 18px;
+}
+.balls{
+    left: 58em;
+}
+.circlei{
+    margin: 40px 0 0 0;
+}
+.aboutsection{
+    direction: ltr;
+}.circlecontent{
+    right: -155px;
+}
+.mapside{
+    direction: ltr;
+}
+.abouth222:after{
+    right: 180px;
+}
+.blogitem{
+    direction: ltr;
+}
+.blogitem2{
+    direction: ltr;
+}
+.myfooter{
+    direction: ltr;
+}
+.footerh5{
+    margin-right: 0;
+    margin-left: 45px;
+}

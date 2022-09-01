@@ -376,7 +376,7 @@ a {
 }
 
 .homep {
-    font-size: 1.6em;
+    font-size: 18px;
     color: #F8F8F9;
     /* margin: 80px 0 50px 0; */
     line-height: 1.6;
@@ -424,7 +424,7 @@ a {
 }
 
 .circle {
-    right: 511px;
+    /* right: 511px !important; */
     width: 100px;
     height: 100px;
     background: #F8F8F9;
@@ -435,7 +435,7 @@ a {
     bottom: -45px;
     z-index: 1;
     /* animation: bounce-down 1.5s infinite; */
-
+    transform: translate(-32em, 10px);
 }
 
 @keyframes rotate {
@@ -593,6 +593,8 @@ a {
     right: 35px;
     transform: rotate(269deg);
     z-index: 1111111111;
+    top: 180px;
+    right: -60px;
 }
 
 .aftercontainer2 {
@@ -601,6 +603,8 @@ a {
     left: -47px;
     transform: rotate(271deg);
     z-index: 100000;
+    top: 294px;
+    left: -160px;
 }
 
 .yasspan {
@@ -1211,7 +1215,7 @@ html {
 .shape444 {
     position: absolute;
     width: 130px;
-    top: -10em;
+    top: -4em;
     left: -7em;
     animation: shape3 4s linear infinite;
 }

@@ -4248,3 +4248,18 @@ right: 0.7em;
 .homeh1{
     text-align: left;
 }
+
+#increase {
+    background: #DCEAF5;
+    border: 1px solid #DCEAF5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 1em;
+}
+#decrease {
+    background: #DCEAF5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 1em;
+    border: 1px solid #DCEAF5;
+}

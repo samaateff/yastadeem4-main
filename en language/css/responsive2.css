@@ -1,4 +1,11 @@
-@media only screen and (max-width:5464px) and (min-width:1820px){
+.abouticonimggg{
+    transform: translate(502%, -172%);
+    }
+    .shape444{
+        top: -4em;
+        left: -104px;
+    }
+@media only screen and (max-width:5464px) and (min-width:1380px){
     .list.active > a{
         min-width: 108% !important;
     }
@@ -7,5 +14,18 @@
     }
     .mapdivv:after{
         display: none;
+    }
+    .abouticonimgg{
+        transform: translate(110%, -209%);
+    }
+    .abouticonimg{
+        transform: translate(592%, -209%);
+    }
+    .shape444{
+        top: -4em;
+        left: -104px;
+    }
+    .abouticonimggg {
+        transform: translate(588%, -183%);
     }
 }
