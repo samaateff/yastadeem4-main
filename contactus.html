@@ -656,8 +656,7 @@ form.unactive{
 </div>
 
 <!-- contactus second section -->
-<div data-aos="fade-down" data-aos-easing="ease-out-cubic"
-data-aos-duration="1000" class="contactuss">
+<div  class="contactuss">
 <div class="container">
    <div class="row">
      <div class="col-md-6 col-sm-12 col-xs-12">
@@ -896,6 +895,10 @@ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0Ec
         $('.overlay-content form').removeClass('active');
         $('.overlay-content form').fadeIn(1000).addClass('unactive');
     }
+</script>
+<script>
+    var all_height_t = $('.myfooter').height() + $('nav').height() + 700;
+jQuery('.contactuss ').css('min-height', "calc(100vh - " + all_height_t + "px)");
 </script>
  </body>
  </html>

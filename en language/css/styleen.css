@@ -3824,7 +3824,7 @@ padding:0.7em 0;
         left: 250px;
     }    
     select.input-lg{
-    padding:0.7em 40px;
+    padding:1em 40px;
 
     }   
     select + i.fa {
@@ -4362,6 +4362,3 @@ right: 0.7em;
 }
 
 
-.aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
-    min-height: 100vh;
-}

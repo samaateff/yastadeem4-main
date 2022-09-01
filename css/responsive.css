@@ -2001,3 +2001,18 @@ display: none;
         
     }
 } */
+
+@media only screen and (max-width: 465px) and (min-width: 300px){
+    .topheaderul li a {
+        color: #707070 !important;
+        padding: 10px;
+    }
+    .homecontent{
+        margin: 12px 0 0 0 !important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:1300px){
+    .shapeblog44{
+        display: none !important;
+    }
+}

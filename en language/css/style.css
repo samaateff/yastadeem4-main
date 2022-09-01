@@ -5090,7 +5090,7 @@ form.unactive {
 
 .navigation {
     position: relative !important;
-    height: 80vh !important;
+    height: 70vh !important;
     width: 98% !important;
     overflow-x: hidden !important;
     transition: width 0.5s !important;
@@ -5312,7 +5312,3 @@ form.unactive {
 
 }
 
-
-.aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
-    min-height: 100vh;
-}

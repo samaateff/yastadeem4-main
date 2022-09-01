@@ -565,8 +565,7 @@ form.unactive{
     <img class="shapeblog41" src="images/Group 1670.svg"/>
 </div>
 
-<div data-aos="fade-down" data-aos-easing="ease-out-cubic"
-data-aos-duration="1000" class="blogitems">
+<div  class="blogitems">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
@@ -845,6 +844,7 @@ data-aos-duration="1000" class="blogitems">
 integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
  crossorigin="anonymous"></script>
  <script src="js/main.js"></script> 
+ <!-- <script src="js/zoomout.js"></script>  -->
 <script>
     AOS.init();
 </script>
@@ -865,6 +865,9 @@ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0Ec
         $('.overlay-content form').fadeIn(1000).addClass('unactive');
     }
 </script>
-
+<script>
+    var all_height_blog = $('.myfooter').height() + $('nav').height() + 720;
+  jQuery('.blogitems').css('min-height', "calc(100vh - " + all_height_blog + "px)");
+</script>
  </body>
  </html>

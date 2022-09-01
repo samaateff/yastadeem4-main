@@ -5090,7 +5090,7 @@ form.unactive {
 
 .navigation {
     position: relative !important;
-    height: 80vh !important;
+    height: 70vh !important;
     width: 98% !important;
     overflow-x: hidden !important;
     transition: width 0.5s !important;
@@ -5289,13 +5289,13 @@ form.unactive {
 }
 
 .navigation .list.dropdown .drop-down-menu {
-    color: white !important;
+    /* color: white !important; */
     display: none !important;
 
 }
 
 .navigation .list.dropdown .drop-down-menu li {
-    color: #ffffff !important;
+    color: #ffffff ;
     display: flex !important;
 }
 
@@ -5311,6 +5311,6 @@ form.unactive {
     color: #032F55 !important;
 
 }
-.aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
+/* .aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
     min-height: 100vh;
-}
+} */
