@@ -1992,7 +1992,7 @@ display: none;
     margin-top: 5em;
 }
 .myowl4 .center .item .clientcontent p{
-    width: 94%;
+    /* width: 94%; */
 }
 }
 /* @media only screen and (max-width:2000px) and (min-width:1380px){

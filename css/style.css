@@ -210,8 +210,8 @@ a {
     right: -4px;
     border: 2px solid #fff;
     border-radius: 50px;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     background-color: #032f55;
     color: #fff;
     font-size: 8px;
@@ -5314,3 +5314,38 @@ form.unactive {
 /* .aboutsection ,.blogitems,.contactuss ,.notifications .tab-pane{
     min-height: 100vh;
 } */
+
+
+
+
+header {
+    margin-top: 3em;
+    background:#F8F8F9;
+    z-index: 111111111111111111111111111;
+    /* height: 50px; */
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    text-align: center;
+  }
+  
+  header li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  header a {
+    color: #222;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .nav-up {
+    top: -140px;
+  }
+  
+
+  
