@@ -64,7 +64,7 @@
 </div>
 
 <!-- navbar -->
-<header >
+<header>
 <div class="homebackground">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -855,35 +855,37 @@
         if (st > lastScrollTop && st > navbarHeight){
             // Scroll Down
             $('header').removeClass('nav-down').addClass('nav-up');
+            if ($(document).scrollTop() > 20) {
+                $('.nav-up').css({
+                    'top' : '-140px',
+                });
+                $('header').addClass('border');
+            }else{
+                $('.nav-down').css({
+                    'top' : '3em',
+                });
+                $('header').removeClass('border');
+            }
         } else {
             // Scroll Up
             if(st + $(window).height() < $(document).height()) {
                 $('header').removeClass('nav-up').addClass('nav-down');
+                if ($(document).scrollTop() > 20) {
+                    $('.nav-down').css({
+                        'top' : '5px',
+                    });
+                    $('header').addClass('border');
+                }else{
+                    $('.nav-down').css({
+                        'top' : '3em',
+                    });
+                    $('header').removeClass('border');
+                }
             }
         }
 
         lastScrollTop = st;
     }
-
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 20) {
-            $('.nav-down').css({
-                'top' : '5px',
-            });
-            $('.nav-up').css({
-                'top' : '-140px',
-            });
-            $('header').addClass('border');
-        }else{
-            $('.nav-down').css({
-                'top' : '3em',
-            });
-            $('.nav-up').css({
-                'top' : '-140px',
-            });
-            $('header').removeClass('border');
-        }
-    });
 
 </script>
 
