@@ -5319,7 +5319,7 @@ form.unactive {
 
 
 header.border{
-    border-bottom: 4px solid #032F55!important;
+    /* border-bottom: 4px solid #032F55!important; */
     padding: 0;
 }
 header.border .logo {
@@ -5354,6 +5354,5 @@ header {
   .nav-up {
     top: -140px;
   }
-  
 
   

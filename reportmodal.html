@@ -25,41 +25,48 @@
     <link rel="stylesheet" href="css/responsive.css"/>
 </head>
 <body>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
+
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div style="    background-color: #F8F8F9;" class="modal-content">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div style="text-align: center;" class="modal-body">
+        <div style="text-align: center; " class="modal-body">
           <div>
-            <i class="fa fa-check"></i>
-            <p>Your request has been approved by the examiner</p>
+            <i style="    font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background: #032F55;
+            border-radius: 50px;
+            padding:1em; margin-bottom: 1em;
+        " class="fa fa-check"></i>
+            <p style="color: #979595;">Your request has been approved by the examiner</p>
             <div>
+              <div style="margin: 1em 0;">
                 <div class="row">
                     <div class="col-md-3">
                         <img src="images/client.png"/>
                     </div>
                     <div class="col-md-9">
-                        <h6> Name: anyname </h6>
-                        <h6>Email :  anyname@gmail.com</h6>
-                        <h6> Number: 012345678889</h6>
+                      <div style="margin-top: 2em;" class="infodivvv">
+                        <h6 > Name: anyname </h6>
+                        <h6 >Email :  anyname@gmail.com</h6>
+                        <h6 > Number: 012345678889</h6>
+                      </div>  
                     </div>
                 </div>
+                </div>
                 <div>
-                    <p>any txt any txt any txt any txt any txt any txt any txt any txt
+                    <p style="color: #979595;">any txt any txt any txt any txt any txt any txt any txt any txt
                         any txt any txt any txt any txt any txt any txt any txt any txt
                         any txt any txt any txt any txt any txt any txt any txt any txt
                         any txt any txt any txt any txt any txt any txt any txt any txt </p>
                 </div>
-                <button>the report</button>
-                <form>
+                <button class="reportbtn sendto">the report</button>
+                <form style="display: none; margin-top: 1em;" class="reportform">
                     <div style="display: flex;" class="form-group">
                     <select style="border-radius: 50px;" class="form-control">
                         <option value="">1</option>
@@ -112,6 +119,10 @@ $(document).ready(function(){
     $("form").slideToggle();
   });
 });
+
+$(window).on('load', function() {
+        $("#exampleModal").modal('show');
+    });
 </script>
 
 
