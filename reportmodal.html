@@ -59,14 +59,20 @@
                     </div>
                 </div>
                 </div>
-                <div>
-                    <p style="color: #979595;">any txt any txt any txt any txt any txt any txt any txt any txt
-                        any txt any txt any txt any txt any txt any txt any txt any txt
-                        any txt any txt any txt any txt any txt any txt any txt any txt
-                        any txt any txt any txt any txt any txt any txt any txt any txt </p>
+                <div style="display: flex; justify-content: center;">
+                  <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                    <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                      <label class="mylabel myllabel">   الكهربا</label>
+                   </div>
+                   &nbsp;
+                   &nbsp;
+                   <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                    <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                      <label class="mylabel myllabel">   السباكة</label>
+                   </div>
                 </div>
                 <button class="reportbtn sendto">the report</button>
-                <form style="display: none; margin-top: 1em;" class="reportform">
+                <!-- <form style="display: none; margin-top: 1em;" class="reportform">
                     <div style="display: flex;" class="form-group">
                     <select style="border-radius: 50px;" class="form-control">
                         <option value="">1</option>
@@ -79,14 +85,14 @@
                         <option value="">3</option>
                     </select>
                     </div>
-                </form>
+                </form> -->
             </div>
           </div>
         </div>
-        <div class="modal-footer">
+        <!-- <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -114,11 +120,11 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("form").slideToggle();
-  });
-});
+// $(document).ready(function(){
+//   $("button").click(function(){
+//     $("form").slideToggle();
+//   });
+// });
 
 $(window).on('load', function() {
         $("#exampleModal").modal('show');

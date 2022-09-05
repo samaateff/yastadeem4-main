@@ -135,9 +135,9 @@
     .myfooter{
         text-align: center;
     }
-    .shape33{
+    /* .shape33{
         display: none;
-    }
+    } */
     .myowl4 .owl-prev{
         display: none !important;
     }
@@ -486,7 +486,7 @@
         /* width: 42% !important; */
         /* width: 60%; */
         /* margin: auto; */
-        margin-bottom: 15px !important;
+        margin-bottom: 15px;
     }
     .myowl4 .owl-prev{
         display: none;
@@ -750,9 +750,9 @@
     .myfooter{
         text-align: center;
     }
-    .shape33{
+    /* .shape33{
         display: none;
-    }
+    } */
     .myowl4 .owl-prev{
         display: none !important;
     }
@@ -1348,9 +1348,9 @@
         width: 70%;
         margin: auto;
     }
-    .shape33{
+    /* .shape33{
         display: none;
-    }
+    } */
     .blogitem{
         width: 100%;
         height: 100%;
@@ -1971,7 +1971,7 @@
         width: 38%;
     }
 }
-@media only screen and (min-width:300px) and (max-width:767px){
+@media only screen and (min-width:500px) and (max-width:767px){
     .myowl4 .center .item .clientcontent p{
         width: 56%;
     }
@@ -1998,7 +1998,7 @@
 }
 @media only screen and (min-width:483px) and (max-width:499px){
     .myowl4 .center .item .clientcontent p{
-        width: 80%;
+        width: 71%;
     }
     .clientimgtop{
         padding: 25px;
@@ -2010,6 +2010,11 @@
     }
     .clientimgtop{
         padding: 25px;
+    }
+}
+@media only screen and (min-width:451px) and (max-width:482px){
+    .myowl4 .center .item .clientcontent p{
+        width: 71%;
     }
 }
 @media only screen and (max-width:5464px) and (min-width:1400px){
@@ -2041,9 +2046,12 @@ display: none;
 }
 .myowl4 .center .item .clientcontent p{
     /* width: 94%; */
+    margin: auto;
+    width: 85%;
+    margin-bottom: 1em;
 }
 .clientimgtop{
-    padding: 1.5em;
+    padding: 0.5em;
 }
 }
 /* @media only screen and (max-width:2000px) and (min-width:1380px){
@@ -2066,4 +2074,21 @@ display: none;
     .shapeblog44{
         display: none !important;
     }
+    .myowl4 .center .item .clientcontent p{
+      
+        margin-bottom: 3em;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1300px){
+    .myclient22 img{
+        width: 11% !important;
+    }
+    .center .myclient22 img{
+        width: 11% !important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:767px){
+.homecarouselimg{
+    height: 80vh;
+}
 }
