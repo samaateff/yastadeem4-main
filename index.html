@@ -64,7 +64,7 @@
 </div>
 
 <!-- navbar -->
-<header class="nav-down">
+<header >
 <div class="homebackground">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -828,57 +828,63 @@
 
 
     // Hide header on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('header').outerHeight();
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    
-    // Make scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-    
-    // If scrolled down and past the navbar, add class .nav-up.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('header').removeClass('nav-down').addClass('nav-up');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav-up').addClass('nav-down');
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
         }
-    }
-  
-    lastScrollTop = st;
-}
+    }, 250);
 
+    function hasScrolled() {
+        var st = $(this).scrollTop();
 
+        // Make scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
 
-
-
-
-
-$(document).ready(function(){
-
-        if(windowScroll > 200) {
-            $("header").addClass("nav-down")
-        }else {
-            $("header").removeClass("nav-down")
+        // If scrolled down and past the navbar, add class .nav-up.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $(document).height()) {
+                $('header').removeClass('nav-up').addClass('nav-down');
+            }
         }
-    })
+
+        lastScrollTop = st;
+    }
+
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 20) {
+            $('.nav-down').css({
+                'top' : '5px',
+            });
+            $('.nav-up').css({
+                'top' : '-140px',
+            });
+            $('header').addClass('border');
+        }else{
+            $('.nav-down').css({
+                'top' : '3em',
+            });
+            $('.nav-up').css({
+                'top' : '-140px',
+            });
+            $('header').removeClass('border');
+        }
+    });
+
 </script>
 
 </body>

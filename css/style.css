@@ -2208,6 +2208,7 @@ html {
     height: 5px;
     background-color: #0F214B;
     width: 100%;
+    z-index: 99999999999;
 }
 
 .linear {
@@ -5317,14 +5318,21 @@ form.unactive {
 
 
 
-
+header.border{
+    border-bottom: 4px solid #032F55!important;
+    padding: 0;
+}
+header.border .logo {
+    width: 70px;
+    height: 70px;
+}
 header {
     /* margin-top: 3em; */
     background:#F8F8F9;
     z-index: 111111111111111111111111111;
     /* height: 50px; */
     position: fixed;
-    top: 3em;
+    top: 0em;
     transition: top 0.2s ease-in-out;
     width: 100%;
     text-align: center;
