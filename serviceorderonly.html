@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YASTAEEM</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- css files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"> -->
+    <!-- <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"> -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+
+
+<div class="load-bar">
+    <div class="linear"></div>
+</div>
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="/action_page.php">
+            <input type="text" placeholder="كلمة البحث ...." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+<!-- topheader -->
+<div class="container">
+    <div class="topheader">
+        <div>
+            <ul class="topheaderul">
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="privacypolicy.html">سياسة الخصوصية</a></li>
+                <li><a href="#">الشكاوي والاقتراحات</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="dropdown langdrop">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    <span class="langspan">العربية</span>
+                    <img class="langi" src="images/Icon material-language.svg"/>
+                </button>
+                <ul class="dropdown-menu langmenu">
+                    <li><a class="dropdown-item" href="indexrtl.html">English</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<!-- navbar -->
+<header>
+    <div class="homebackground">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbarbrand" href="index.html">
+                    <img class="logo" src="images/logo.png"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                      <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                        <li class="nav-item nav-item1 li1">
+                            <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle balokkali" href="aboutyastadeem.html" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                عن يستديم
+                                <i class="fa fa-angle-down balokkai"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#ourseen">
+                                    <div class="notif1">
+                                        <div>
+                                            <img class="eye" src="images/Group 1616.svg"/>
+                                            <span class="eyespan"> رؤيتنا </span>
+                                            <i  class=" eye2 fa fa-arrow-left"></i>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                    </div>
+                                </a></li>
+                                <li><a class="dropdown-item" href="#ourmsg">
+                                    <div class="notif1">
+                                        <div>
+                                            <img class="eye"
+                                                 src="images/6646376_dart_essentials_goal_mission_success_icon (1).svg"/>
+                                            <span class="eyespan"> رسالتنا </span>
+                                            <i class="eye2 fa fa-arrow-left"></i>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                    </div>
+                                </a></li>
+                                <li><a class="dropdown-item" href="#ourgoals">
+                                    <div class="notif3">
+                                        <div>
+                                            <img class="eye" src="images/6619592_goal_keyword_seo_target_icon.svg"/>
+                                            <span class="eyespan"> اهدافنا </span>
+                                            <i  class="eye2 fa fa-arrow-left"></i>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h6 class="notificationh6">نسعى جاهدين الى تبسيط عملية العقارات</h6>
+                                    </div>
+                                </a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-item1 li1">
+                            <a class="nav-link  link3" aria-current="page" href="#">اعمالنا</a>
+                        </li>
+                        <li class="nav-item nav-item1 li1">
+                            <a class="nav-link  link3" aria-current="page" href="blog.html">المدونة</a>
+                        </li>
+                        <li class="nav-item nav-item1 li1">
+                            <a class="nav-link  link4" aria-current="page" href="contactus.html"> تواصل معنا</a>
+                        </li>
+                        <li class="nav-item nav-item1 li1">
+                            <a class="nav-link  link5" aria-current="page" href="joinus.html"> طلب الخدمة</a>
+                        </li>
+    
+    
+                    </ul>
+    
+                    <div class="btns">
+                        <div class="dropdown">
+                            <button style="position: relative;" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i style="color: #032F55;     margin-top: 16px;
+                                margin-left: 15px;
+                                font-size: 20px; position: relative;" class="fas fa-bell"></i>
+                                <span class="notificationspan">0</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu2">
+                                <ul class="dropdownul">
+                                    <li><a class="dropdown-item" href="#">
+                                      <div class="row">
+                                          <div class="col-9">
+                                              <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                              <div style="display: flex;">
+                                              <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                   ما سيلهي القارئ عن التركيز على الشكل
+                                                   <span style="color: #529AE4;">المزيد</span>
+                                                  </p>
+                                              </div>
+                                          </div>
+                                      <div class="col-3">
+                                          <div class="notificationimg">
+                                              <img src="images/3289577_fast_run_running_icon.svg"/>
+                                          </div>
+                                          </div>
+                                          </div>
+                                      
+                                    </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                      <div class="row">
+                                        <div class="col-9">
+                                            <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                            <div style="display: flex;">
+                                            <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                 ما سيلهي القارئ عن التركيز على الشكل
+                                                 <span style="color: #529AE4;">المزيد</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                      <div class="col-3">
+                                          <div class="notificationimgg">
+                                      <img src="images/216514_warning_icon.svg"/>
+                                          </div>
+                                          </div>
+                                          </div>
+                                    </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                      <div class="row">
+                                        <div class="col-9">
+                                            <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                            <div style="display: flex;">
+                                            <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                 ما سيلهي القارئ عن التركيز على الشكل
+                                                 <span style="color: #529AE4;">المزيد</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                      <div class="col-3">
+                                          <div class="notificationimggg">
+                                      <img src="images/2203534_cash_coin_money_value_icon.svg"/>
+                                          </div>
+                                          </div>
+                                          </div>
+                                    </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                                <div style="display: flex;">
+                                                <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                     ما سيلهي القارئ عن التركيز على الشكل
+                                                     <span style="color: #529AE4;">المزيد</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        <div class="col-3">
+                                            <div class="notificationimg">
+                                                <img src="images/3289577_fast_run_running_icon.svg"/>
+                                            </div>
+                                            </div>
+                                            </div>
+                                        
+                                      </a></li>
+                                      <li><a class="dropdown-item" href="#">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                                <div style="display: flex;">
+                                                <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                     ما سيلهي القارئ عن التركيز على الشكل
+                                                     <span style="color: #529AE4;">المزيد</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        <div class="col-3">
+                                            <div class="notificationimgg">
+                                        <img src="images/216514_warning_icon.svg"/>
+                                            </div>
+                                            </div>
+                                            </div>
+                                      </a></li>
+                                      <li><a class="dropdown-item" href="#">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <h5 style="color: #032F55; font-weight: bold;">استعد</h5>
+                                                <div style="display: flex;">
+                                                <p >هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء<br/> لصفحة
+                                                     ما سيلهي القارئ عن التركيز على الشكل
+                                                     <span style="color: #529AE4;">المزيد</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        <div class="col-3">
+                                            <div class="notificationimggg">
+                                        <img src="images/2203534_cash_coin_money_value_icon.svg"/>
+                                            </div>
+                                            </div>
+                                            </div>
+                                      </a></li>
+                                  </ul>
+                                  <div style="text-align: center; margin-bottom: 1em;"><a style="margin: auto;" href="notification.html">المزيد من الاشعارات</a></div>
+                            </div>
+                            
+                          </div>
+                        <img onclick="openSearch()" class="srchicon" src="images/searchicon.svg"/>
+                        <a href="login.html" class="loginbtn">تسجيل الخروج</a>
+                        <a href="serviceorder.html" class="servicebtn"> حسابي</a>
+                    </div>
+    
+                </div>
+            </div>
+        </nav>
+    
+    
+    </div>
+    </header>
+
+
+    <div style="margin-top: 9em;" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mystepwizard">
+
+                    <div>
+                        <div style="display: flex;">
+                            <div>
+                                <i style="margin-top: 0.5em;
+                                margin-left: 1em;
+                                font-size: 20px;
+                                color: #032F55;" class="fas fa-hand-holding-medical"></i>
+
+                            </div>
+                            <h4 style="font-size: 32px; font-weight: bold; color: #032F55;">  طلب الخدمة</h4>
+                        </div>
+                        <p style="margin: 1em 0 2em 0; color: #707070; font-size: 14px;">يمكنك تعديل بياناتك من خلال هذه
+                            الصفحة ومن ثم يتم تحديث هذه البيانات</p>
+
+                    </div>
+               
+                <div class="">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <form id="regForm">
+                              <!-- <h1 id="register">Donate</h1> -->
+                             
+                            
+                             <!-- register first tab -->
+                             
+                             <div style="position: relative;" class="tab">
+              
+                                 
+                                    
+                   <div style="position: relative;" class="location">
+
+                    <div style="position: relative;" class="all-steps" id="all-steps">
+
+                        <div style="position: relative;">
+                    <hr style="position: relative; width: 50%; margin: auto;"/>
+                        <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55; background-color: #032F55; color: #fff; width: 50px; height: 50px;   transform: translate(-100px, -23px);" class="step">1</span>
+                         <span style="position: absolute;  line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  color: #032F55; width: 50px; height: 50px;   transform: translate(31px, -24px); " class="step">2</span>
+                          <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  color: #032F55; width: 50px; height: 50px;  transform: translate(166px, -25px);" class="step" >3</span> 
+                         </div>
+                        </div>
+                 
+                    <div>
+                        <h3>الموقع</h3>
+                    </div>
+                    <form  class="accountform">
+
+                        <div style="margin-top: 2em;" class="formf">
+                            <div class="form-group finputdiv">
+                                <label class="mylabel"> المنطقة</label>
+                                <input type="text" class="form-control myforminput"
+                                       placeholder="منطقه تجريبة   "/>
+                                <!-- <img style="filter: sepia(100%) hue-rotate(190deg) saturate(500%);"
+                                     class="finputimg" src="images/Icon ionic-ios-call.svg"/> -->
+                                     <i style="color: #979595;" class="finputimg fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="form-group finputdiv sdivv">
+                                <label class="mylabel"> المدينة </label>
+                                <input type="text" class="form-control myforminput"
+                                       placeholder="   جده"/>
+                                <img src="images/9055182_bxs_city_icon.svg" class="sinputimg sinputimgg"/>
+                            </div>
+                        </div>
+
+                        <div class="formf">
+                            <div class="form-group finputdiv">
+                                <label class="mylabel"> الحي</label>
+                                <input type="text" class="form-control myforminput"
+                                       placeholder=" حي تجريبي   "/>
+                                <img class="finputimg" src="images/9055182_bxs_city_icon.svg"/>
+                            </div>
+                                <!-- style="filter: sepia(100%) hue-rotate(190deg) saturate(500%);" -->
+                        </div>
+                        <div class=" mapdivv">
+                            <iframe class="mapiframe"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14871.28681639682!2d40.4138372!3d21.2785241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9849b4234ff2cc03!2zUFVJVVggLSDYqNin2YrZiNmD2LM!5e0!3m2!1sen!2seg!4v1659361204105!5m2!1sen!2seg"
+                                    width="82%" height="200" style="border:0; border-radius: 15px;"
+                                    allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                        <div style="position: relative;">
+                            <form>
+                                <input style="position: absolute;" class="form-control forminput" type="text"
+                                       placeholder="هل تود السماح بمعرفة موقعك الحالي ؟"/>
+                                <a style="position: absolute; left: 305px;" class="allow" href="#">سماح</a>
+                            </form>
+                        </div>
+
+
+                        <div  style="    margin-top: 4em;
+                        margin-left: 7em; display: flex; justify-content: end;">
+                            <button class="sendto" type="button" id="nextBtnn" >متابعة  <i class="fa fa-arrow-left"></i></button>
+                        </div>
+                    </form>
+                </div>
+                                     
+                                    
+                                        <!-- <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button> -->
+                                     <!-- <a href="#" class="sendto">ارسال</a> -->
+                                   
+                                    <!-- <div class="myrowww">
+                  
+                                    </div> -->
+                                    
+                              </div>
+                             <!-- register second tab -->
+
+                             <div class="tab">
+                
+                                <input type="text" class="form-control"/>
+                                 
+                                    
+                   <div class="location">
+                    <div style="position: relative;" class="all-steps" id="all-steps">
+
+                        <div style="position: relative;">
+                    <hr style="position: relative; width: 50%; margin: auto;"/>
+                        <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  color: #032F55;  width: 50px; height: 50px;   transform: translate(-100px, -23px);"class="step" >1</span>
+                         <span style="position: absolute;  line-height: 2.9; border-radius: 50px; border: 1px solid #032F55; background-color: #032F55; color: #fff; width: 50px; height: 50px;   transform: translate(31px, -24px);">2</span>
+                          <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  color: #032F55; width: 50px; height: 50px;  transform: translate(166px, -25px);" class="step">3</span> 
+                         </div>
+                        </div>
+                    <div>
+                        <h3>بيانات اخرى</h3>
+                    </div>
+                    <form  class="accountform">
+
+                        <div style="margin-top: 2em;" class="formf">
+                            <div class="form-group finputdiv mymclass">
+                                <label class="mylabel">نوع العقار</label>
+                                <div class="selectorr" id="selector">
+                                  <select class="form-control input-lg " name="sama" >
+                                    <option>
+                                       حدد نوع العقار
+                                    </option>
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                  </select>
+                                  <i style="margin-left: 66px;" class="fa fa-chevron-down"></i>
+                                  <img class="flag" src="images/9055182_bxs_city_icon.svg"/>
+                                  <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                             </div>
+                             <div  class="form-group finputdiv mymclass">
+                                <label class="mylabel">حساب طالب الخدمة</label>
+                                <div class="selectorr" id="selector">
+                                  <select class="form-control input-lg " name="sama" >
+                                    <option>
+                                       حدد نوع الحساب
+                                    </option>
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                  </select>
+                                  <i style="margin-left: 66px;" class="fa fa-chevron-down"></i>
+                                  <i style="color: #707070; font-size: 13px;" class="flag fas fa-user"></i>
+                                  <!-- <img class="flag" src="images/8665469_flag_location_country_icon (1).svg"/> -->
+                                  <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                             </div>
+                        </div>
+
+                        <div class="formf">
+                            <div style="width: 100%;" class="form-group finputdiv mymclass">
+                                <label class="mylabel">  وقت الفحص</label>
+                                <div class="selectorr" id="selector">
+                                  <select style="width: 95%;" class="form-control input-lg " name="sama" >
+                                    <option>
+                                       حي تجريبي
+                                    </option>
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                  </select>
+                                  <i style="margin-left: 66px;" class="fa fa-chevron-down"></i>
+                                  <i style="color: #707070;" class="flag fa fa-calendar-alt"></i>
+                                  <!-- <img class="flag" src="images/8665469_flag_location_country_icon (1).svg"/> -->
+                                  <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                             </div>
+                        </div>
+                       
+
+                        <div class="stepcenter">
+                            <i class="fa fa-file-alt"></i>
+                            &nbsp;
+                            <span>للا طلاع على قائمة وبنود الفحص ، يرجى  </span>
+                            <span style="color: #4594E1; cursor: pointer;" class="presshere">الضغط هنا</span>
+                            <div style="display: none;" id="mypress">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                                            <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                                              <label class="mylabel myllabel">   الكهربا</label>
+                                           </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                                            <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                                              <label class="mylabel myllabel">   السباكة</label>
+                                           </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                                            <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                                              <label class="mylabel myllabel">   الجدران</label>
+                                           </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div style="background-color: #fff; border-radius:50px; padding: 0em 5em;" class="form-group checkgroup">
+                                            <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                                              <label class="mylabel myllabel">   الابواب</label>
+                                           </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="stepf">
+                        <div style="margin-top: 3em;" class="form-group checkgroup">
+                            <input style="margin-top: 25px" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
+                              <label class="mylabel myllabel">الموافقة على الشروط والاحكام</label>
+                           </div>
+                        <div  style="    margin-top: 2em;
+                        margin-left: 2em;">
+                            <button class="sendto" type="button" id="nextBtn" >متابعة  <i class="fa fa-arrow-left"></i></button>
+                        </div>
+                    </div>    
+                    </form>
+                </div>
+                                     
+                                    
+                                        <!-- <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button> -->
+                                     <!-- <a href="#" class="sendto">ارسال</a> -->
+                                   
+                                    <!-- <div class="myrowww">
+                  
+                                    </div> -->
+                                    
+                              </div>
+
+                            
+                            
+                             
+                             <!-- register third tab -->
+            
+                              
+                              
+                             <div class="tab">
+               
+                                 
+                                    <input type="text" class="form-control"/>
+                   <div class="location">
+                    <div style="position: relative;" class="all-steps" id="all-steps">
+
+                        <div style="position: relative;">
+                    <hr style="position: relative; width: 50%; margin: auto;"/>
+                        <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  color: #032F55;  width: 50px; height: 50px;   transform: translate(-100px, -23px);" class="step">1</span>
+                         <span style="position: absolute;  line-height: 2.9; border-radius: 50px; border: 1px solid #032F55; color: #032F55; width: 50px; height: 50px;   transform: translate(31px, -24px);"class="step" >2</span>
+                          <span style="position: absolute; line-height: 2.9; border-radius: 50px; border: 1px solid #032F55;  background-color: #032F55;color: #fff;  width: 50px; height: 50px;  transform: translate(166px, -25px);">3</span> 
+                         </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div>
+                                <h3> الدفع</h3>
+                                <h6 class="steph6">اختر طريقة الدفع المناسبه لك</h6>
+                            </div>
+                            <div class="fimg">
+                                <img src="images/2560px-Mada_Logo.svg.png"/>
+                            </div>
+                            <div class="simg">
+                                <img src="images/download__3_-removebg-preview (2).png"/>
+                            </div>
+                            <div class="fimg">
+                                <img src="images/Stc_pay.svg.png"/>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <h3> ملخص الدقع</h3>
+                                <h6 class="steph6">راجع بياناتك ومن ثم ارفع الطلب</h6>
+                            </div>
+                                <form class="stepform">
+                            <div class="stepformdiv">
+                                    <div class="form-group fstepinput">
+                                    <input type="text" class="form-control" placeholder="نوع العقار"/>
+                                    <img class="fimginput" src="images/9055182_bxs_city_icon.svg"/>
+                                    <span class="fspaninput">فيلا</span>
+                                    </div>
+                                      <hr/>
+                                    <div class="form-group fstepinput">
+                                        <input type="text" class="form-control" placeholder=" موقع الفحص"/>
+                                        <img class="fimginput" src="images/2216335_location_map_map pin_marker_pin_icon (4).png"/>
+                                        <span class="fspaninput">موقع تجريبي</span>
+                                        </div>
+                                      <hr/>
+                                       
+                                        <div class="form-group fstepinput">
+                                            <input type="text" class="form-control" placeholder=" الاجمالي"/>
+                                            <img class="fimginput" src="images/2639892_price_tag_icon.svg"/>
+                                            <span class="fspaninput">320 ر.س</span>
+                                            </div>
+                                      <hr/>
+                                         
+                                            <div class="form-group fstepinput">
+                                                <input type="text" class="form-control" placeholder=" الخصم"/>
+                                                <img class="fimginput" src="images/2639892_price_tag_icon.svg"/>
+                                                <span class="fspaninput">50 ر.س</span>
+                                                </div>
+                                      <hr/>
+                                             
+                                                <div class="form-group fstepinput">
+                                                    <input type="text" class="form-control" placeholder=" اجمالي الدفع"/>
+                                                    <img class="fimginput" src="images/2639892_price_tag_icon.svg"/>
+                                                    <span class="fspaninput">270 ر.س</span>
+                                                    </div>
+                                        </div>
+                                         <div style="position: relative; margin-top: 3em;">
+                                            <input style="position: relative; border-radius: 50px;" class="form-control" type="text"
+                                                   placeholder="هل لديك رمز قسيمة كوبون ؟ أدخل هنا"/>
+                                            <a style="position: absolute; top: 0.8em;
+                                            left: 1em;" class="allow" href="#">تطبيق</a>
+                                        </div>
+                                </form>
+                        </div>
+                    </div>
+                    <div  style="    margin-top: 3em;
+                        margin-left: 0em; display: flex; justify-content: end;">
+                            <button class="sendto" type="button" id="nextBtnnn" >متابعة  <i class="fa fa-arrow-left"></i></button>
+                        </div>
+                </div>
+                                     
+                                    
+                                        <!-- <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button> -->
+                                     <!-- <a href="#" class="sendto">ارسال</a> -->
+                                   
+                                    <!-- <div class="myrowww">
+                  
+                                    </div> -->
+                                    
+                                </div>
+
+                                <div class="tab">
+              
+                                 
+                                    
+                                    <div class="location">
+                                     <div>
+                                         <h3>الموقع</h3>
+                                     </div>
+                                     <form  class="accountform">
+                 
+                                         <div style="margin-top: 2em;" class="formf">
+                                             <div class="form-group finputdiv">
+                                                 <label class="mylabel"> المنطقة</label>
+                                                 <input type="text" class="form-control myforminput"
+                                                        placeholder="منطقه تجريبة   "/>
+                                                 <!-- <img style="filter: sepia(100%) hue-rotate(190deg) saturate(500%);"
+                                                      class="finputimg" src="images/Icon ionic-ios-call.svg"/> -->
+                                                      <i style="color: #979595;" class="finputimg fas fa-map-marker-alt"></i>
+                                             </div>
+                                             <div class="form-group finputdiv sdivv">
+                                                 <label class="mylabel"> المدينة </label>
+                                                 <input type="text" class="form-control myforminput"
+                                                        placeholder="   جده"/>
+                                                 <img src="images/9055182_bxs_city_icon.svg" class="sinputimg sinputimgg"/>
+                                             </div>
+                                         </div>
+                 
+                                         <div class="formf">
+                                             <div class="form-group finputdiv">
+                                                 <label class="mylabel"> الحي</label>
+                                                 <input type="text" class="form-control myforminput"
+                                                        placeholder=" حي تجريبي   "/>
+                                                 <img class="finputimg" src="images/9055182_bxs_city_icon.svg"/>
+                                             </div>
+                                                 <!-- style="filter: sepia(100%) hue-rotate(190deg) saturate(500%);" -->
+                                         </div>
+                                         <div class=" mapdivv">
+                                             <iframe class="mapiframe"
+                                                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14871.28681639682!2d40.4138372!3d21.2785241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9849b4234ff2cc03!2zUFVJVVggLSDYqNin2YrZiNmD2LM!5e0!3m2!1sen!2seg!4v1659361204105!5m2!1sen!2seg"
+                                                     width="82%" height="200" style="border:0; border-radius: 15px;"
+                                                     allowfullscreen="" loading="lazy"
+                                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 
+                                         </div>
+                                         <div style="position: relative;">
+                                             <form>
+                                                 <input style="position: absolute;" class="form-control forminput" type="text"
+                                                        placeholder="هل تود السماح بمعرفة موقعك الحالي ؟"/>
+                                                 <a style="position: absolute; left: 305px;" class="allow" href="#">سماح</a>
+                                             </form>
+                                         </div>
+                 
+                 
+                                         <div  style="    margin-top: 4em;
+                                         margin-left: 7em; display: flex; justify-content: end;">
+                                             <button class="sendto" type="button" id="nextBtnn" >متابعة  <i class="fa fa-arrow-left"></i></button>
+                                         </div>
+                                     </form>
+                                 </div>
+                                                      
+                                                     
+                                                         <!-- <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button> -->
+                                                      <!-- <a href="#" class="sendto">ارسال</a> -->
+                                                    
+                                                     <!-- <div class="myrowww">
+                                   
+                                                     </div> -->
+                                                     
+                                               </div>
+
+
+
+                                               <div class="thanks-message text-center" id="text-message"> <img src="https://i.imgur.com/O18mJ1K.png" width="100" class="mb-4">
+                                                <h3>Thanks for your Donation!</h3> <span>Your donation has been entered! We will contact you shortly!</span>
+                                            </div>
+                                            <div style="overflow:auto;" id="nextprevious">
+                                                <div style="float:right;"> <button class="back" style="position: absolute;
+                                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
+                                  عودة</button>
+                                   </div>
+                                            </div>
+                            
+                          </form>
+                      </div>
+                  </div>
+              </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<!-- footer -->
+<foote>
+    <div class="myfooter">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3 ">
+                    <div>
+                       <a href="index.html"><img class="footerlogo" src="images/Blokka (3).png"/></a>
+                    </div>
+                    <div>
+                        <p class="footerp">
+                            هناك حقيقة مثبتة منذ زمن
+                            طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+                            القارئ عن التركيز على الشكل الخارجي للنص
+                        </p>
+                    </div>
+                    <div>
+                        <button class="visa"><a><img src="images/visa.png"/></a></button>
+                        <button class="paypal"><a><img src="images/paypal.png"/></a></button>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div class="pages">
+                        <h5 class="footerh5">الصفحات</h5>
+                        <ul class="p1">
+                            <li><a href="aboutyastadeem.html"> عن يستديم</a></li>
+                            <li><a href="#">اعمالنا </a></li>
+                            <li><a href="blog.html"> المدونة</a></li>
+                            <li><a href="contactus.html"> تواصل معنا</a></li>
+                            <li><a href="joinus.html"> تسجيل كفحص</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div>
+                      <h5 class="footerh5">الصفحات</h5>
+                     <a><span class="p1">عن يستديم</span></a>
+                      <br/>
+                     <a><span class="p2">اعمالنا</span></a>
+                      <br/>
+                      <a><span class="p3">المدونة</span></a>
+                      <br/>
+                      <a><span class="p4">تواصل معنا</span></a>
+                      <br/>
+                      <a><span class="p5">تسجيل كفاحص</span></a>
+                    </div> -->
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <div>
+                        <h5 class="footerh5 footerh555">المزيد</h5>
+                        <ul class="p1">
+                            <li><a href="#">الشروط والاحكم</a></li>
+                            <li><a href="privacypolicy.html">سياسة الخصوصية</a></li>
+                            <li><a href="#">الشكاوي والاقتراحات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-6 col-md-3">
+                    <h5 class="footerh55 footerh5555">النشرة الاخبارية</h5>
+                    <p class="p11">ابق على تواصل معنا ليصلك كل جديد</p>
+                    <div class="inputdiv">
+                        <form>
+                            <input type="text" class="form-control myinput" placeholder="ادخل بريدك الالكترونى"/>
+                            <img class="material" src="images/Icon material-email.png"/>
+                            <button class="inputicon">
+                                <img class="inputicon2" src="images/Icon ionic-ios-send.png"/>
+                            </button>
+                        </form>
+                        <!-- <i class="fa fa-location-arrow inputicon"></i> -->
+                    </div>
+                    <div class="footersocial">
+                        <a href="#" class="face"> <img class="faceimg" src="images/Icon awesome-facebook-f (1).svg"/>
+                        </a>
+                        <a href="#" class="face face2"> <img src="images/Icon awesome-linkedin-in.png"/> </a>
+                        <a href="#" class="face"> <img src="images/Icon ionic-logo-twitter.svg"/> </a>
+                    </div>
+                </div>
+                <div>
+                    <img class="shape444" src="images/Group 1669.svg"/>
+                </div>
+                <div>
+                    <img class="shape33" src="images/Group 1547.svg"/>
+                </div>
+            </div>
+            <div class="lastfooter">
+                <span class="lastfooterp">جميع الحقوق محفوظة لدى يستديم - 2022</span>
+                <a href="https://puiux.com/"><img src="images/PUIUX_LOGO.png"/></a>
+            </div>
+        </div>
+
+    </div>
+</foote>
+<!-- js files -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/zoomout.js"></script>
+
+<script>
+    AOS.init();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".presshere").click(function(){
+    $("#mypress").slideToggle();
+  });
+});
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampleModal").on('hidden.bs.modal', function (e) {
+            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
+            var $v = $(e.delegateTarget).find('video');
+            $v[0].pause();
+        });
+// variables 
+        var toTop = $('.to-top');
+// logic
+        toTop.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $('html, body').offset().top,
+            });
+        });
+
+    });
+
+    // Get this script ready when the page loads
+    $(document).ready(function () {
+//   Create a function
+        $(".scrollDown").click(function (event) {
+//       Select the body of the page and scroll down by 650 pixels worth
+            $("html, body").animate({scrollTop: $('.backimg').offset().top}, 1000);
+        });
+    });
+</script>
+<script>
+    $('.overlay-content form').hide();
+
+    function openSearch() {
+        $('#myOverlay').fadeIn(2000);
+        $('.overlay-content form').fadeIn(1000).addClass('active');
+        $('.overlay-content form').removeClass('unactive');
+        //   $('.overlay-content form').delay(2000).slideDown(2000);
+    }
+
+    function closeSearch() {
+        $('#myOverlay').fadeOut(2000);
+        $('.overlay-content form').removeClass('active');
+        $('.overlay-content form').fadeIn(1000).addClass('unactive');
+    }
+
+
+
+
+
+
+
+
+    // Hide header on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
+
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
+
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        // If scrolled down and past the navbar, add class .nav-up.
+        if (st > lastScrollTop && st > navbarHeight){
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
+            if ($(document).scrollTop() > 20) {
+                $('.nav-up').css({
+                    'top' : '-140px',
+                });
+                $('header').addClass('border');
+            }else{
+                $('.nav-down').css({
+                    'top' : '3em',
+                });
+                $('header').removeClass('border');
+            }
+        } else {
+            // Scroll Up
+            if(st + $(window).height() < $(document).height()) {
+                $('header').removeClass('nav-up').addClass('nav-down');
+                if ($(document).scrollTop() > 20) {
+                    $('.nav-down').css({
+                        'top' : '5px',
+                    });
+                    $('header').addClass('border');
+                }else{
+                    $('.nav-down').css({
+                        'top' : '3em',
+                    });
+                    $('header').removeClass('border');
+                }
+            }
+        }
+
+        lastScrollTop = st;
+    }
+
+</script>
+
+<script>
+
+    //your javascript goes here
+  var currentTab = 0;
+  document.addEventListener("DOMContentLoaded", function(event) {
+  
+  
+      showTab(currentTab);
+  
+  });
+  
+  function showTab(n) {
+      var x = document.getElementsByClassName("tab");
+      x[n].style.display = "block";
+      if (n == 0) {
+          document.getElementById("prevBtn").style.display = "none";
+      } else {
+          document.getElementById("prevBtn").style.display = "inline";
+      }
+      if (n == (x.length - 1)) {
+          document.getElementById("nextBtn").innerHTML = "Submit";
+      } else {
+          // document.getElementById("nextBtn").innerHTML = "متابعة <i class="fa fa-arrow-right"></i>";
+      }
+      fixStepIndicator(n)
+  }
+  
+  function nextPrev(n) {
+      var x = document.getElementsByClassName("tab");
+      console.log("number =>" + n);
+      console.log(x);
+      if (n == 1 && !validateForm()) return false;
+      x[currentTab].style.display = "none";
+      currentTab = currentTab + n;
+      if (currentTab >= x.length) {
+          // document.getElementById("regForm").submit();
+          // return false;
+          //alert("sdf");
+          document.getElementById("nextprevious").style.display = "none";
+          document.getElementById("all-steps").style.display = "none";
+          document.getElementById("register").style.display = "none";
+          document.getElementById("text-message").style.display = "block";
+  
+  
+  
+  
+      }
+      showTab(currentTab);
+  }
+  
+  function validateForm() {
+      var x, y, i, valid = true;
+      x = document.getElementsByClassName("tab");
+      y = x[currentTab].getElementsByTagName("input");
+      for (i = 0; i < y.length; i++) {
+          if (y[i].value == "") {
+              y[i].className += " invalid";
+              valid = false;
+          }
+      }
+      if (valid) { document.getElementsByClassName("step")[currentTab].className += " finish"; }
+      return valid;
+  }
+  
+  function fixStepIndicator(n) {
+      var i, x = document.getElementsByClassName("step");
+      for (i = 0; i < x.length; i++) { x[i].className = x[i].className.replace(" active", ""); }
+      x[n].className += " active";
+  }
+
+
+//   document.getElementById("nextBtn").addEventListener("click", nextPrev(1));
+//   document.getElementById("nextBtnn").addEventListener("click", nextPrev(1));
+//   document.getElementById("nextBtnnn").addEventListener("click", nextPrev(1));
+  $('body').on('click', '#nextBtn', function(){
+    nextPrev(1);
+  });
+
+  $('body').on('click', '#nextBtnn', function(){
+    nextPrev(1);
+  });
+
+  $('body').on('click', '#nextBtnnn', function(){
+    nextPrev(1);
+  });
+  </script>
+  
+<script>
+    var all_height_blog = $('.myfooter').height() + $('nav').height() + 320;
+  jQuery('.mystepwizard').css('min-height', "calc(100vh - " + all_height_blog + "px)");
+</script>
+
+</body>
+</html>    

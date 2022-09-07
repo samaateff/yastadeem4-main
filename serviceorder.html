@@ -162,7 +162,7 @@
                         <a class="nav-link  link4" aria-current="page" href="contactus.html"> تواصل معنا</a>
                     </li>
                     <li class="nav-item nav-item1 li1">
-                        <a class="nav-link  link5" aria-current="page" href="joinus.html">تسجيل كفاحص</a>
+                        <a class="nav-link  link5" aria-current="page" href="joinus.html"> طلب الخدمة</a>
                     </li>
 
 
@@ -577,6 +577,7 @@
                                 </div>
                             </form>
                         </div>
+    <button type="button" id="test">ffffffffffffffff</button>
                                              
                                             
                                                 <!-- <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button> -->
@@ -8295,11 +8296,11 @@
   function showTab(n) {
       var x = document.getElementsByClassName("tab");
       x[n].style.display = "block";
-      if (n == 0) {
-          document.getElementById("prevBtn").style.display = "none";
-      } else {
-          document.getElementById("prevBtn").style.display = "inline";
-      }
+    //   if (n == 0) {
+    //       document.getElementById("prevBtn").style.display = "none";
+    //   } else {
+    //       document.getElementById("prevBtn").style.display = "inline";
+    //   }
       if (n == (x.length - 1)) {
           document.getElementById("nextBtn").innerHTML = "Submit";
       } else {
@@ -8348,6 +8349,17 @@
       for (i = 0; i < x.length; i++) { x[i].className = x[i].className.replace(" active", ""); }
       x[n].className += " active";
   }
+
+
+
+
+
+//   document.getElementById("test").addEventListener("click", nextPrev);
+
+  $('body').on('click', '#test', function(){
+    nextPrev(1);
+  });
+
   </script>
 
 </body>

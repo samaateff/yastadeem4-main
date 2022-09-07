@@ -377,7 +377,7 @@
     </div>
     </div>
     <div class="container">
-        <div class="aboutsection1">
+        <div class="aboutsection11">
             <span class="homespan">تعرف علينا</span>
             <h2 class="abouth2">عناصر الفحص الاساسية</h2>
         </div>
@@ -588,7 +588,7 @@
 
 
 <!-- blog -->
-<div>
+<div class="blogsection">
     <div class="container">
         <div class="aboutsection11">
             <span class="homespan">  المدونة</span>
@@ -598,8 +598,18 @@
             <div class="owl-carousel owl-theme ThemeCoderClass5 myowl5">
                 <div class="item">
                     <div class="blogitem2">
-                        <div>
-                            <img class="blogimg" src="images/giant-building-with-sun.png"/>
+                        <div style="position: relative;">
+                            <img style="position: relative;" class="blogimg" src="images/giant-building-with-sun.png"/>
+                            <div class="overlay2">
+                                <div class="overlayinfo">
+                                  <a href="#">
+                                  <img style="width: 3em; margin: auto; 
+                                    animation: bounce-down 1.5s infinite;
+                                  " src="images/Group 1543.svg"/>
+                                  </a>
+                               
+                              </div>
+                              </div>
                         </div>
                         <div class="blogcontent">
                             <div class="datediv">
@@ -620,9 +630,19 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="blogitem">
-                        <div>
-                            <img src="images/low-angle-view-skyscrapers.png"/>
+                    <div class="blogitem3">
+                        <div style="position: relative;">
+                            <img style="position: relative;" src="images/low-angle-view-skyscrapers.png"/>
+                            <div class="overlay2">
+                                <div class="overlayinfo">
+                                  <a href="#">
+                                  <img style="width: 3em; margin: auto; 
+                                    animation: bounce-down 1.5s infinite;
+                                  " src="images/Group 1543.svg"/>
+                                  </a>
+                               
+                              </div>
+                              </div>
                         </div>
                         <div class="blogcontent">
                             <div class="datediv">
@@ -643,8 +663,18 @@
                 </div>
                 <div class="item">
                     <div class="blogitem">
-                        <div>
-                            <img src="images/bussiness.png"/>
+                        <div style="position: relative;">
+                            <img style="position: relative;" src="images/bussiness.png"/>
+                            <div class="overlay2">
+                                <div class="overlayinfo">
+                                  <a href="#">
+                                  <img style="width: 3em; margin: auto; 
+                                    animation: bounce-down 1.5s infinite;
+                                  " src="images/Group 1543.svg"/>
+                                  </a>
+                               
+                              </div>
+                              </div>
                         </div>
                         <div class="blogcontent">
                             <div class="datediv">
@@ -773,121 +803,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script>
-    AOS.init();
-</script>
 
-<script>
-    $(document).ready(function () {
-        $("#exampleModal").on('hidden.bs.modal', function (e) {
-            $("#exampleModal iframe").attr("src", $("#exampleModal iframe").attr("src"));
-            var $v = $(e.delegateTarget).find('video');
-            $v[0].pause();
-        });
-// variables 
-        var toTop = $('.to-top');
-// logic
-        toTop.on('click', function () {
-            $('html, body').animate({
-                scrollTop: $('html, body').offset().top,
-            });
-        });
-
-    });
-
-    // Get this script ready when the page loads
-    $(document).ready(function () {
-//   Create a function
-        $(".scrollDown").click(function (event) {
-//       Select the body of the page and scroll down by 650 pixels worth
-            $("html, body").animate({scrollTop: $('.backimg').offset().top}, 1000);
-        });
-    });
-</script>
-<script>
-    $('.overlay-content form').hide();
-
-    function openSearch() {
-        $('#myOverlay').fadeIn(2000);
-        $('.overlay-content form').fadeIn(1000).addClass('active');
-        $('.overlay-content form').removeClass('unactive');
-        //   $('.overlay-content form').delay(2000).slideDown(2000);
-    }
-
-    function closeSearch() {
-        $('#myOverlay').fadeOut(2000);
-        $('.overlay-content form').removeClass('active');
-        $('.overlay-content form').fadeIn(1000).addClass('unactive');
-    }
-
-
-
-
-
-
-
-
-    // Hide header on scroll down
-    var didScroll;
-    var lastScrollTop = 0;
-    var delta = 5;
-    var navbarHeight = $('header').outerHeight();
-
-    $(window).scroll(function(event){
-        didScroll = true;
-    });
-
-    setInterval(function() {
-        if (didScroll) {
-            hasScrolled();
-            didScroll = false;
-        }
-    }, 250);
-
-    function hasScrolled() {
-        var st = $(this).scrollTop();
-
-        // Make scroll more than delta
-        if(Math.abs(lastScrollTop - st) <= delta)
-            return;
-
-        // If scrolled down and past the navbar, add class .nav-up.
-        if (st > lastScrollTop && st > navbarHeight){
-            // Scroll Down
-            $('header').removeClass('nav-down').addClass('nav-up');
-            if ($(document).scrollTop() > 20) {
-                $('.nav-up').css({
-                    'top' : '-140px',
-                });
-                $('header').addClass('border');
-            }else{
-                $('.nav-down').css({
-                    'top' : '3em',
-                });
-                $('header').removeClass('border');
-            }
-        } else {
-            // Scroll Up
-            if(st + $(window).height() < $(document).height()) {
-                $('header').removeClass('nav-up').addClass('nav-down');
-                if ($(document).scrollTop() > 20) {
-                    $('.nav-down').css({
-                        'top' : '5px',
-                    });
-                    $('header').addClass('border');
-                }else{
-                    $('.nav-down').css({
-                        'top' : '3em',
-                    });
-                    $('header').removeClass('border');
-                }
-            }
-        }
-
-        lastScrollTop = st;
-    }
-
-</script>
 
 </body>
 </html>    

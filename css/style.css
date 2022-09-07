@@ -640,16 +640,22 @@ a {
 .facebook:hover {
     background-color: #032F55;
     color: #fff;
+    box-shadow: 4px 2px 29px 10px #888888;
+
 }
 
 .instagram:hover {
     background-color: #032F55;
     color: #fff;
+    box-shadow: 4px 2px 29px 10px #888888;
+
 }
 
 .linkedin:hover {
     background-color: #032F55;
     color: #fff;
+    box-shadow: 4px 2px 29px 10px #888888;
+
 }
 
 .whatsapp:hover {
@@ -752,6 +758,18 @@ html {
     left: -19px;
     top: 186px;
 }
+.myowl4 .owl-carousel .owl-nav button.owl-next,
+.myowl4 .owl-nav button.owl-prev,
+.myowl4 button.owl-dot{
+    height: 41px;
+    width: 43px;
+    border-radius: 50px !important;
+    border: 1px solid #032F55 !important;
+    /* padding: 15em; */
+    line-height: -0.5;
+    line-height: 0;
+    padding: 0.5em !important;
+}
 
 .myowl4 .owl-nav button.owl-next,
 .myowl4 .owl-nav button.owl-prev,
@@ -762,8 +780,19 @@ html {
     top: 186px;
     position: absolute;
     right: -37px;
+    height: 41px;
+    width: 43px;
+    border-radius: 50px !important;
+    border: 1px solid #032F55 !important;
+    /* padding: 15em; */
+    line-height: -0.5;
+    line-height: 0;
+    padding: 0.5em !important;
 }
-
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color:#C1D6EB !important;
+    /* filter: brightness(0) invert(1); */
+}
 /* about */
 .circle a {
     position: relative;
@@ -776,12 +805,13 @@ html {
 
 .aboutsection1 {
     text-align: center;
-    margin: 122px 0 60px 0;
+    /* margin: 122px 0 60px 0; */
+    margin: 90px 0 40px 0;
 }
 
 .aboutsection11 {
     text-align: center;
-    margin: 35px 0 60px 0;
+    margin: 60px 0 50px 0;
 }
 
 .aboutdiv {
@@ -1128,6 +1158,7 @@ html {
     transform: rotate(60deg);
     animation: shape3 4s linear infinite;
     height: auto !important;
+    overflow: hidden;
 }
 
 .shapee33 {
@@ -1199,7 +1230,7 @@ html {
 .shape44 {
     position: absolute;
     width: 292px;
-    top: 3583px;
+    top: 3500px;
     right: -200px;
     animation: shape3 4s linear infinite;
 }
@@ -1218,6 +1249,7 @@ html {
     top: -4em;
     left: -7em;
     animation: shape3 4s linear infinite;
+    overflow: hidden;
 }
 
 .shapeee444 {
@@ -1387,7 +1419,7 @@ html {
 
 .mycarosel {
     /* margin: 100px 0; */
-    margin: 100px 0 85px 0;
+    /* margin: 100px 0 85px 0; */
 }
 
 .myowl2 .owl-dots, .owl-theme .owl-nav {
@@ -1644,7 +1676,7 @@ html {
     transform: scale(1.5);
     padding: 40px 80px;
     margin-top: 0;
-    animation: myOrbitt 4s linear;
+    animation: myOrbitt 1s linear;
 }
 
 .myowl44 .center .item {
@@ -1775,32 +1807,56 @@ html {
 .blogitem {
     border: 0.5px solid #c3d7eb;
     background-color: #fff;
-    /* box-shadow: 0px 0px 20px #529AE433; */
+    /* box-shadow: 0px 0px 20px #529ae433; */
     border-radius: 10px;
-    width: 360px;
-    height: 509px;
+    width: 339px;
+    /* height: 509px; */
     padding: 27px;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 
+.blogitem3 {
+    border: 0.5px solid #c3d7eb;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 20px #529ae433; */
+    border-radius: 10px;
+    width: 339px;
+    /* height: 509px; */
+    padding: 27px;
+    margin-top: 1em;
+    margin-right: -1em;
+    margin-bottom: 1em;
 }
 
 .blogitem:hover {
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 25%);
-
+    box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+    -webkit-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+    -moz-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
 }
 
 .blogitem2:hover {
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 25%);
-
+    box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+-webkit-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+-moz-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+}
+.blogitem3:hover {
+    box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+-webkit-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
+-moz-box-shadow: -1px -2px 25px 11px rgba(122,195,224,0.20);
 }
 
 .blogitem2 {
     border: 0.5px solid #c3d7eb;
     background-color: #fff;
+    /* box-shadow: 0px 0px 20px #529ae433; */
     border-radius: 10px;
-    width: 360px;
-    height: 509px;
+    width: 339px;
+    /* height: 509px; */
     padding: 27px;
-
+    margin-top: 1em;
+   margin-bottom: 1em;
 }
 
 .datediv {
@@ -1872,8 +1928,8 @@ html {
 
 .shapeblogimg {
     position: absolute;
-    top: -73px;
-    left: -51px;
+    top: -118px;
+    left: -11px;
     z-index: 1;
     animation: shape3 4s linear infinite;
 }
@@ -1900,11 +1956,12 @@ html {
 
 /* footer */
 .myfooter {
+    overflow: hidden;
     background-color: #032F55;
     position: relative;
     /* background: url('../images/footer.svg') center ; */
     /* padding: 50px 50px 5px 50px; */
-    padding: 104px 137px 30px 137px;
+    padding: 104px 137px 20px 137px;
 }
 
 .inputdiv {
@@ -1923,6 +1980,15 @@ html {
     background-color: #529AE4;
     top: -1px;
     left: -3px;
+    border-radius: 50px;
+    border: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #529AE4;
+    top: 1px;
+    left: -51px;
     border-radius: 50px;
     border: 0;
 }
@@ -2012,16 +2078,30 @@ html {
     /* padding-right: 43px; */
     /* margin: 30px 0; */
     margin-top: -1em;
-    font-size: 12px;
+    /* font-size: 12px; */
     color: #b7b7b7;
-    padding: 0.9em 4em;
+    padding: 1em 5em;
     margin-bottom: 2em;
+    width: 120%;
+    border-radius: 25px;
+    /* padding-right: 43px; */
+    /* margin: 30px 0; */
+    margin-top: -1em;
+    font-size: 14px;
+    color: #b7b7b7;
+    /* padding: 1em 4em; */
+    margin-bottom: 2em;
+    color: #70707080;
 }
 
 .material {
     position: absolute;
     top: 13px;
     right: 17px;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    width: 20px;
 }
 
 .face {
@@ -2803,6 +2883,7 @@ input[type="file"] {
 
 .map_section {
     position: relative;
+    margin-top: 4em;
 }
 
 .mapdiv {
@@ -3733,8 +3814,8 @@ button:hover {
 }
 
 .step {
-    height: 15px;
-    width: 15px;
+    height: 50px;
+    width: 50px;
     margin: 0 2px;
     background-color: #bbbbbb;
     border: none;
@@ -3755,7 +3836,7 @@ button:hover {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    display: none;
+    /* display: none; */
 }
 
 .thanks-message {
@@ -4185,7 +4266,7 @@ table.dataTable.display > tbody > tr.odd > * {
 
 .borderimg {
     height: 100%;
-    animation: fadeInAnimation ease 10s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     right: 100%;
@@ -4212,8 +4293,8 @@ table.dataTable.display > tbody > tr.odd > * {
 .car {
     position: absolute;
     z-index: 10;
-    -moz-animation: myfirst 10s linear alternate;
-    -webkit-animation: myfirst 10s linear alternate;
+    -moz-animation: myfirst 3s linear alternate;
+    -webkit-animation: myfirst 3s linear alternate;
 }
 
 @-moz-keyframes myfirst {
@@ -4303,7 +4384,7 @@ form.unactive {
 }
 
 .circlecontent {
-    animation: tyre-rotate 10s alternate linear;
+    animation: tyre-rotate 2s alternate linear;
     top: 7px;
     right: 7px
 }
@@ -4322,7 +4403,7 @@ form.unactive {
 
 .borderimg {
     position: absolute;
-    /*top: 21em;*/
+    top: -1em;
     left: 0em;
     width: 84em;
 }
@@ -4581,7 +4662,7 @@ select + i.fa {
 }
 
 .myinput {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .avatar-edit {
@@ -5011,7 +5092,7 @@ table.dataTable tbody td {
 .sama9:after {
     content: "";
     position: absolute;
-    bottom: -1324px;
+    bottom:  -1356px;
     /* left: 3px; */
     right: 328px;
     width: 80px;
@@ -5320,9 +5401,9 @@ form.unactive {
 
 header.border{
     /* border-bottom: 4px solid #032F55!important; */
-    box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.75);
--webkit-box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.75);
--moz-box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.75);
+    box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.20);
+-webkit-box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.20);
+-moz-box-shadow: 0px 32px 57px -18px rgba(39,42,87,0.20);
     padding: 0;
 }
 header.border .logo {
@@ -5339,6 +5420,7 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     text-align: center;
+    overflow: hidden;
   }
   
   header li {
@@ -5357,6 +5439,53 @@ header {
   .nav-up {
     top: -140px;
   }
-  
+  .overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+    z-index: 50;
+    border-radius: 15px 15px 0 0;
+   
+
+}
+.overlayinfo{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.blogitem2:hover .overlay2{
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+
+  }
+  .blogitem:hover .overlay2{
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+
+  }  
+  .blogitem3:hover .overlay2{
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+
+  } 
+  .blogsection{
+    margin-bottom: 4em;
+  }
 
   
