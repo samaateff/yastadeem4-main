@@ -279,7 +279,7 @@
         /* padding: 13px; */
         /* margin: 0; */
         text-align: center;
-        margin-top: 3em !important;
+        /* margin-top: 3em !important; */
     }
     .homeh1{
         /* margin: 0; */
@@ -444,7 +444,7 @@
         padding: 10px;
     }
     .homecontent{
-        margin: 20px 0 0 0 !important;
+        /* margin: 20px 0 0 0 !important; */
     }
 }
 @media only screen and (min-width: 451px){
@@ -456,7 +456,7 @@
         width: 100%;
         /* height: 100%; */
         /* padding: 1em */
-        margin-top: 2em;
+        /* margin-top: 2em; */
     }
     .owl-dots{
         display: none;
@@ -1068,7 +1068,7 @@
         width: 100%;
         /* height: 100%; */
         /* padding: 1em */
-        margin-top: 2em;
+        /* margin-top: 2em; */
     }
     .owl-dots{
         display: none;
@@ -1372,7 +1372,7 @@
     .homecontent{
         /* padding: 0 !important; */
         /* margin: auto !important; */
-        margin-top: 7em;
+        /* margin-top: 7em; */
     }
 }
 .mapicon2{
@@ -1391,6 +1391,13 @@
 @media only screen and (max-width: 1300px) and (min-width: 300px){
     .footerlogo{
         margin: 0;
+    }
+    .homecontent{
+        position: absolute;
+        top: 50%;
+  left: 50%;
+  transform: translate(0%,-50%);/*nos lel4mal w nos lefo2*/
+  text-align: center;
     }
 }
 
@@ -1436,17 +1443,17 @@
         margin-bottom: 1em;
     }
     .homecontent{
-        margin-top: 4em;
+        /* margin-top: 4em; */
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1300px){
     .homecontent{
-        margin-top: 8em;
+        /* margin-top: 8em; */
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px){
     .homecontent{
-        margin-top: 11em;
+        /* margin-top: 11em; */
     }
 }
 
@@ -1968,7 +1975,7 @@
         margin: auto;
     }
     .homecontent{
-        margin-top: 6.5em !important;
+        /* margin-top: 6.5em !important; */
     }
     .homeh1{
         margin-top: 0.5em;
@@ -2072,7 +2079,7 @@
 display: none;
 }
 .homecontent{
-    margin-top: 5em;
+    /* margin-top: 5em; */
 }
 .myowl4 .center .item .clientcontent p{
     /* width: 94%; */
