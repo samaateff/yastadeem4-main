@@ -1956,14 +1956,16 @@ html {
 
 /* footer */
 .myfooter {
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #032F55;
     position: relative;
     /* background: url('../images/footer.svg') center ; */
     /* padding: 50px 50px 5px 50px; */
-    padding: 104px 137px 20px 137px;
+    padding: 104px 137px 0px 137px;
 }
-
+.lastfooterimg{
+    margin-top: -0.5em;
+}
 .inputdiv {
     position: relative;
 }
