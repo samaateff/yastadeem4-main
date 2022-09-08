@@ -1401,7 +1401,23 @@
   /* height: 80vh; */
     }
 }
-
+@media only screen and (max-width:550px) and (min-width: 300px){
+    .myowl4 .center .item{
+        padding: 20px 80px;
+    }
+    .myowl4 .center .item .clientcontent p{
+        margin-bottom: 3.5em !important;
+    }
+    .clientcontent span{
+        margin-top: 0.5em !important;
+    }
+    .clientcontent h5{
+        margin-top: 0.5em !important;
+    }
+    .center .myclient22 img {
+        margin-top: 10px !important;
+    }
+}
 @media only screen and (max-width: 767px) and (min-width: 300px){
     .footerlogo{
         margin: 0;
