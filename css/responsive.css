@@ -82,7 +82,7 @@
         text-align: center;
     }
     .blogitemm{
-        margin: 2em 0;
+        margin: 1.5em 0 !important;
     }
     .list{
         margin: 10px!important;
@@ -1890,7 +1890,7 @@
         left: 6.5em;
         font-size: 12px;
         width: 50%;
-    top: 2.3em;
+    top: 20px;
     left: 10.5em;
          
     }
@@ -2176,6 +2176,9 @@
     }
 }
 @media only screen and (max-width:5464px) and (min-width:1400px){
+    .forminput{
+        width: 10%;
+    }
     .center .myclient22 img{
         width: 23% !important;
     }
@@ -2283,5 +2286,10 @@ display: none;
     .mapside{
         width: 86%;
         transform: translate(15%, -80%);
+    }
+    .shapeblog41{
+        width: 65px;
+        left: 13vw;
+        top: 24em;
     }
 }    

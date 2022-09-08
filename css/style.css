@@ -1222,7 +1222,7 @@ html {
     position: absolute;
     width: 100px;
     top: -165;
-    left: 18px;
+    left: 3vw;
     animation: shape3 4s linear infinite;
     top: 27em;
 }
@@ -3118,7 +3118,7 @@ select + i.fa {
 .sama9:before {
     content: "";
     position: absolute;
-    top: 202px;
+    top: 229px;
     /* left: 3px; */
     right: 333px;
     width: 80px;
@@ -5102,7 +5102,7 @@ table.dataTable tbody td {
 .sama9:after {
     content: "";
     position: absolute;
-    bottom:  -1356px;
+    bottom: -1384px;
     /* left: 3px; */
     right: 328px;
     width: 80px;
@@ -5497,5 +5497,9 @@ header {
   .blogsection{
     margin-bottom: 4em;
   }
-
-  
+.imghight{
+    max-height: 18em;
+}
+.blogitemmm{
+    margin-right: 0;
+}  
