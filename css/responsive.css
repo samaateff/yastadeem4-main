@@ -1042,6 +1042,37 @@
     .footerh5555{
         margin-top: 15px !important;
     }
+    
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .myinput{
+        width: 150%;
+        margin-right: -3em;
+        padding: 1em 3em;
+    }
+    .inputicon{
+        left: -35px;
+    }
+    .material{
+        right: -28px;
+    }
+    .shape444{
+        display: block;
+        top: 1em;
+        left: -8em;
+    }
+    .shape33{
+        right: -12em;
+    }
+    .footerlogo{
+        margin-top: 1em !important;
+    }
+    .footerh5{
+        margin-top: 2em !important;
+    }
+    .footerh55{
+        margin-top: 2em !important;
+    }
 }
 @media only screen and (max-width: 450px) and (min-width: 400px){
     .topheaderul li a {
@@ -1109,7 +1140,37 @@
         color: #707070 !important;
         padding: 10px;
     }
-
+    .myinput{
+        margin-right: -1.5em;
+        padding: 1em 4em;
+    }
+    .inputicon{
+        left: -24px;
+    }
+    .material{
+        right: 3px;
+    }
+    .footerlogo{
+        margin-top: 1em !important;
+    }
+    .footerh5{
+        margin-top: 2em !important;
+    }
+    .footerh55{
+        margin-top: 2em !important;
+    }
+    .blogitem{
+         width: 100%;
+         height: 100%;
+    }
+    .blogitem2{
+        width: 100%;
+         height: 100%;
+    }
+    .blogitem3{
+        width: 100%;
+        height: 100%;
+    }
     .circle {
         text-align: center;
         right: 106px;
@@ -1387,6 +1448,11 @@
         display: none;
     }
 }
+@media only screen and (max-width: 1300px) and (min-width: 1200px){
+    .inputicon {
+        left: -31px;
+    }
+}    
 
 @media only screen and (max-width: 1300px) and (min-width: 300px){
     .footerlogo{

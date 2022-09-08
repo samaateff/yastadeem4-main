@@ -4061,7 +4061,7 @@ table.dataTable.display > tbody > tr.odd > * {
 
 .blogimg {
     width: 100%;
-    max-height: 18em;
+    /* max-height: 18em; */
     /* position: relative; */
 }
 
@@ -5082,8 +5082,16 @@ table.dataTable tbody td {
 .fimg img {
     width: 100%;
 }
-
+.modalicons{
+    direction: ltr;
+}
 .modalicons i {
+    color: #c9c3c3;
+}
+
+
+.modalicons i:hover,
+.modalicons i:hover ~ i {
     color: #4594E1;
 }
 

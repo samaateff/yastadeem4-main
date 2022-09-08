@@ -38,9 +38,12 @@
 </head>
 <body>
 <!-- Modal -->
-<div style="z-index: 9999999999999999999;" class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div style="z-index: 9999999999999999999;" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div style="border-radius: 20px; background-color: #F8F8F9;" class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
             <div class="modal-body">
                        
                         <div style="text-align: center;padding: 2em 0; " class="modal-body">
@@ -51,10 +54,10 @@
                           </div>
                           <div class="modalicons">
                             <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                           </div>
                           <form>
                             <div style="text-align: right; margin: 1em 0; position: relative;" class="form-group">
@@ -871,7 +874,7 @@
 
     $(window).on('load', function() {
         $('#confetti').css('opacity','1');
-        $("#staticBackdrop").modal('show');
+        $("#exampleModal").modal('show');
     });
         
         
@@ -924,13 +927,13 @@
         document.addEventListener("DOMContentLoaded", function() {
             var speed = 30,
                 duration = (5.0 / speed),
-                confettiRibbonCount = 11,
-                ribbonPaperCount = 30,
-                ribbonPaperDist = 8.0,
-                ribbonPaperThick = 4.0,
-                confettiPaperCount = 10,
-                DEG_TO_RAD = PI / 180,
-                RAD_TO_DEG = 180 / PI,
+                confettiRibbonCount = 15,
+                ribbonPaperCount = 40,
+                ribbonPaperDist = 10,
+                ribbonPaperThick = 7.0,
+                confettiPaperCount = 15,
+                DEG_TO_RAD = PI / 190,
+                RAD_TO_DEG = 190 / PI,
                 colors = [
                     ["#fff"],
                     ["#4594E1"],
