@@ -1396,9 +1396,9 @@
         position: absolute;
         top: 50%;
   left: 50%;
-  transform: translate(0%,-16%);/*nos lel4mal w nos lefo2*/
+  transform: translate(0%,-50%);/*nos lel4mal w nos lefo2*/
   text-align: center;
-  height: 80vh;
+  /* height: 80vh; */
     }
 }
 
@@ -2136,7 +2136,7 @@ display: none;
 }
 @media only screen and (min-width:300px) and (max-width:767px){
 .homecarouselimg{
-    height: 80vh;
+    height: 70vh;
 }
 .center .circle22{
     padding: 4em 1em;
