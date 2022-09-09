@@ -2302,4 +2302,10 @@ display: none;
     .finput{
         width: 100%;
     }
+    .logininput .myforminput {
+        width: 100%;
+    }
+    .notitema{
+        padding: 1em 1em;
+    }
 }    

@@ -857,8 +857,9 @@
 <script src="js/main.js"></script>
 
 <script>
-
-
+     $('.btn-close').on('click' , function(){
+        $('#confetti').css('opacity','0');
+     })
     $(window).on('load', function() {
         $('#confetti').css('opacity','1');
         $("#exampleModal").modal('show');
