@@ -2299,4 +2299,7 @@ display: none;
         left: 13vw;
         top: 24em;
     }
+    .finput{
+        width: 100%;
+    }
 }    

@@ -234,7 +234,7 @@ a {
     background-color: #E1EBF5;
     padding: 10px;
     border-radius: 50%;
-    margin: 5px 5px 0 0;
+    margin: 5px 5px 0 -40px;
     float: left;
 }
 
@@ -3028,7 +3028,7 @@ select + i.fa {
 
 .flag {
     /* float: left; */
-    margin-top: -25px;
+    margin-top: -33px;
     /* margin-right: 9px; */
     pointer-events: none;
     background-color: transparent;
@@ -3823,7 +3823,8 @@ button:hover {
     border: none;
     border-radius: 50%;
     display: inline-block;
-    opacity: 0.5
+    opacity: 0.5;
+    display: none;
 }
 
 .step.active {
