@@ -421,6 +421,13 @@
     .mapicon2{
         display: none;
     }
+    .myfd{
+        margin-right: 0;
+        display: block;
+    }
+    .notifications h2 {
+        margin-right: 0;
+    }
 }
 @media only screen and (max-width: 450px) and (min-width: 400px){
     .topheaderul li a {
@@ -1705,7 +1712,7 @@
         display: none;
     }
     .mapdivv:after{
-        width: 100%;
+        width: 82%;
     }
     .navigation .icon{
         margin-right: 0 !important;

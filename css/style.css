@@ -2918,7 +2918,7 @@ input[type="file"] {
     left: 0;
     right: 0;
     width: 98%;
-    height: 100%;
+    height: 200px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -4972,11 +4972,11 @@ select + i.fa {
     margin-top: 3em;
 }
 
-.sama99:after {
+/* .sama99:after {
     content: "";
     position: absolute;
     bottom: -1132px;
-    /* left: 3px; */
+  
     right: 328px;
     width: 80px;
     height: 80px;
@@ -4984,7 +4984,7 @@ select + i.fa {
     background: bottom;
     box-shadow: 16px -25px 0 #032f55;
     transform: rotate(97deg);
-}
+} */
 
 table.dataTable tbody td {
     padding: 25px 10px;
@@ -5102,7 +5102,7 @@ table.dataTable tbody td {
 .sama9:after {
     content: "";
     position: absolute;
-    bottom: -1384px;
+    bottom: -1352px;
     /* left: 3px; */
     right: 328px;
     width: 80px;
@@ -5430,7 +5430,8 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+    z-index: 2;
   }
   
   header li {
@@ -5443,7 +5444,7 @@ header {
     text-decoration: none;
     padding: 0 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
   }
   
   .nav-up {
@@ -5502,4 +5503,8 @@ header {
 }
 .blogitemmm{
     margin-right: 0;
+}
+.myfd{
+    display: flex;
+    margin-right: 4em;
 }  
