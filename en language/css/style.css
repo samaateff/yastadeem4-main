@@ -1778,7 +1778,7 @@ html {
     /* box-shadow: 0px 0px 20px #529AE433; */
     border-radius: 10px;
     width: 360px;
-    height: 509px;
+    /* height: 509px; */
     padding: 27px;
 
 }
@@ -1798,7 +1798,7 @@ html {
     background-color: #fff;
     border-radius: 10px;
     width: 360px;
-    height: 509px;
+    /* height: 509px; */
     padding: 27px;
 
 }
@@ -5295,7 +5295,7 @@ form.unactive {
 }
 
 .navigation .list.dropdown .drop-down-menu li {
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
     display: flex !important;
 }
 

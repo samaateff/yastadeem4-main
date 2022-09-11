@@ -234,7 +234,7 @@ a {
     background-color: #E1EBF5;
     padding: 10px;
     border-radius: 50%;
-    margin: 5px 5px 0 -40px;
+    margin: 5px 5px 0 -2.5em;
     float: left;
 }
 
@@ -2759,6 +2759,7 @@ html {
 .verfcontent {
     text-align: center;
     margin-top: -5em;
+    margin-top: -20px;
 }
 
 .verfcontent h2 {
@@ -3957,6 +3958,7 @@ table.dataTable.display > tbody > tr.odd > * {
 .inputnumber {
     text-align: center;
     width: 4em;
+    padding-left: 1.5em;
     border: 1px solid #DCEAF5;
 }
 
@@ -4457,7 +4459,7 @@ form.unactive {
 
 .mapiframee {
 
-    width: 600px;
+    width: 620px;
 }
 
 .cntp {
@@ -5103,7 +5105,7 @@ table.dataTable tbody td {
 .sama9:after {
     content: "";
     position: absolute;
-    bottom: -1352px;
+    bottom: -1384px;
     /* left: 3px; */
     right: 328px;
     width: 80px;
@@ -5509,3 +5511,25 @@ header {
     display: flex;
     margin-right: 4em;
 }  
+.dropdown-menu1 .dropdown-item {
+    padding-left: 4em;
+    padding-right: 1.2em;
+}
+.tablefile{
+    position: unset !important;
+    position: relative !important;
+    transform: translate(166px, 2px);
+    z-index: 1;
+    opacity: 0;
+    
+}
+.tableicon{
+    position: absolute;
+    transform: translate(0px, -20px);
+}
+.verfimg{
+  margin-top: 4em;
+}
+.myselectw{
+    width: 165%;
+}

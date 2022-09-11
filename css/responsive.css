@@ -2048,22 +2048,23 @@
         display: none;
     }
     .halo{
-        display: none;
+        /* display: none; */
     }
     .eyeimglog{
         display: none;
     }
 }
+
 @media only screen and (min-width:300px) and (max-width:767px){
     .myforminput{
-        width: 100%;
+        width: 90%;
     }
     .mysendto{
         margin-right:0;
     }
     .forminput{
         margin: auto;
-        right: 25%;
+        right: 17%;
     }
     .mymclass{
         width: 100%;
@@ -2109,6 +2110,21 @@
     }
     .homeh1{
         margin-top: 0.5em;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:1300px){
+    .myforminput{
+        width: 90%;
+    }
+    .forminput{
+        margin: auto;
+        right: 17%;
+    }
+    .fa-chevron-down{
+        display: none;
+    }
+    .mymclass{
+        width: 100%;
     }
 }
 @media only screen and (min-width:300px) and (max-width:1300px){
@@ -2184,7 +2200,7 @@
 }
 @media only screen and (max-width:5464px) and (min-width:1400px){
     .forminput{
-        width: 10%;
+        /* width: 10%; */
     }
     .center .myclient22 img{
         width: 23% !important;
@@ -2232,6 +2248,12 @@ display: none;
 .abouth2:after{
     right: 605px;
 }
+.ssinputimg{
+    display: none;
+}
+select + i.fa {
+    display: none;
+}
 }
 /* @media only screen and (max-width:2000px) and (min-width:1380px){
     .circle {
@@ -2256,6 +2278,10 @@ display: none;
     .myowl4 .center .item .clientcontent p{
       
         margin-bottom: 3em;
+    }
+    .verfcontent{
+        /* margin-top: -70px !important; */
+        margin-top: -60px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:1300px){
@@ -2300,12 +2326,20 @@ display: none;
         top: 24em;
     }
     .finput{
-        width: 100%;
+        width: 90%;
     }
     .logininput .myforminput {
-        width: 100%;
+        width: 90%;
     }
     .notitema{
         padding: 1em 1em;
     }
+    .contentt{
+        margin-right: 2em;
+    }
 }    
+@media only screen and (min-width:300px) and (max-width:1400px){
+     .verfcontent{
+        margin-top: -120px ;
+     }
+}

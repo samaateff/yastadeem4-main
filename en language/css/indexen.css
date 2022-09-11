@@ -29,7 +29,7 @@
     direction: ltr;
 }
 .abouth222:after{
-    right: 180px;
+    right: 95px;
 }
 .blogitem{
     direction: ltr;
@@ -43,4 +43,15 @@
 .footerh5{
     margin-right: 0;
     margin-left: 45px;
+}
+.dropdown-menu1{
+    text-align: right;
+    direction: rtl;
+}
+.dropdown-menu1:before{
+    right: 83%;
+}
+.shape33{
+    right: -121px;
+    top: 57%;
 }

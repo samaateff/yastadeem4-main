@@ -26,7 +26,49 @@
     <link rel="stylesheet" href="../css/responsive.css"/>
 </head>
 <body>
-
+ <!-- Modal -->
+ <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div style="overflow: hidden; border-radius: 25px;" class="modal-dialog">
+      <div  class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class=''>
+                <div class=''>
+                    <!-- <i style="font-size: 2em;
+                    color: #fff;
+                    background: #032F55;
+                    border-radius: 50px; padding: 0.1em;
+                    cursor: pointer; position: absolute;" class="close fa fa-times"></i> -->
+        
+                <img width="100%" src="images/welcome.png"/>
+                <div style="text-align: center;">
+                <h2 class="cnth2">مرحبا بك يا محمد</h2>
+                <span style="color: #529AE4; font-weight: bold; font-size: 20px;">هل جاهز لمهام جديدة اليوم؟</span>
+                <p class="cntp">
+                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                     ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                <br/>
+                <br/>
+                </p>
+                </div>
+                <div style="text-align: center;margin-top: -1em;">
+                    <a class="gahez" href="#">جاهز</a>
+                    <a href="#">غير جاهز</a>
+                </div>
+                <img style="position: absolute;bottom: -70px;left: -50px;" src="images/Group 1838.svg"/>
+                </div>
+                </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
 
     <div class="load-bar">
         <div class="linear"></div>
@@ -808,6 +850,15 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- <script src="js/main.js"></script> -->
 <script src="../js/main.js"></script>
+<script>
 
+
+    $(window).on('load', function() {
+        // $('#confetti').css('opacity','1');
+        $("#exampleModal").modal('show');
+    });
+        
+        
+    </script>
 </body>
 </html>    
