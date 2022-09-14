@@ -2099,7 +2099,7 @@ right: 33em;
     top: 57px;
     right: 287px;
   }
-  .myforminput:hover .sinputimg{
+  .myforminput:hover .sinputimgg{
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
   }
 .myforminput{
@@ -2108,6 +2108,12 @@ right: 33em;
     background-color: #EDF2F6;
     position: relative;
     padding-left: 40px !important;
+}
+.myforminput:hover{
+    background-color: #fff;
+}
+.myforminput:hover .finputimg{
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 .logininput .myforminput{
     width: 88% ;
@@ -2147,8 +2153,8 @@ right: 33em;
     margin-right: 65px;
 }
 .checkgroup{
-    margin: 11px 0 40px 0;
-    margin-top: 2em;
+    /* margin: 11px 0 40px 0; */
+    /* margin-top: 2em; */
 }
 .mycheck{
     margin-top:10px;
@@ -2169,7 +2175,7 @@ right: 33em;
 }
 .lastspan{
     /* margin-top:40px; */
-    margin-top: 6em;
+    /* margin-top: 6em; */
 }
 .eyeimg{
     position: absolute;
@@ -3732,7 +3738,7 @@ table.dataTable.display > tbody > tr.odd > *{
 }
 .mapiframee{
 
-    width: 600px;
+    width: 88%;
 }
 .cntp{
     margin-top: 1em; color: #707070; font-size: 18px; line-height: 1.6;
@@ -3833,7 +3839,7 @@ padding:0.7em 0;
     }   
     select + i.fa {
         float: right;
-        margin-top: -30px;
+        margin-top: -34px;
         /* margin-right: 9px; */
         pointer-events: none;
         background-color: transparent;
@@ -3843,7 +3849,7 @@ padding:0.7em 0;
     }  
     .flag {
         /* float: left; */
-        margin-top: -29px;
+        margin-top: -34px;
         /* margin-right: 9px; */
         pointer-events: none;
         background-color: transparent;

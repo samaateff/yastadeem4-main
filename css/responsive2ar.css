@@ -1,0 +1,16 @@
+@media only screen and (max-width:1300px) and (min-width:300px){
+    .forminput {
+        width: 88%;
+        /* margin: auto; */
+        /* transform: translate(-7%, 0%); */
+        right: 0;
+    }
+}    
+@media only screen and (max-width:5464px) and (min-width:1400px){
+    .forminput {
+        width: 88%;
+        /* margin: auto; */
+        /* transform: translate(-7%, 0%); */
+        right: 0;
+    }
+}    

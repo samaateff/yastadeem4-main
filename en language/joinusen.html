@@ -24,8 +24,9 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="../css/style.css"/>
     <link rel="stylesheet" href="css/styleen.css"/>
-    <link rel="stylesheet" href="css/responsive.css"/>
+    <!-- <link rel="stylesheet" href="css/responsive.css"/> -->
     <link rel="stylesheet" href="../css/responsive.css"/>
+    <link rel="stylesheet" href="css/responsive2.css"/>
 </head>
 <body>
 
@@ -100,38 +101,38 @@
 
                                 <div class="infodiv">
                                   <a href="#" class="file"><img src="images/Icon awesome-file-alt.svg"/></a>
-                                  <span class="info"> البيانات الشخصية</span>
+                                  <span class="info">  Personal Data</span>
                               </div>
                                 <div class="form-group finputdiv">
-                                  <label class="mylabel">الاسم</label>
-                                  <input type="text" class="form-control finput" placeholder="ادخل اسمك"/>
+                                  <label class="mylabel">Name</label>
+                                  <input type="text" class="form-control finput" placeholder=" Enter your Name"/>
                                   <img class="finputimg" src="images/Icon awesome-user.svg"/>
                                </div>
                                
                                <div class="formf">
                                <div class="form-group finputdiv">
-                                   <label class="mylabel">رقم الجوال</label>
+                                   <label class="mylabel"> Phone Number</label>
                                    <input type="text" class="form-control myforminput joinusinput" placeholder=" +966 54 795 6016"/>
                                    <img class="finputimg" src="images/Icon ionic-ios-call.svg"/>
                                 </div>
                                 <div class="form-group finputdiv sdivv">
-                                   <label class="mylabel">البريد الالكتروني </label>
-                                   <input type="text" class="form-control myforminput joinusinput" placeholder=" ادخل بريدك الالكتروني"/>
+                                   <label class="mylabel"> E-Mail </label>
+                                   <input type="text" class="form-control myforminput joinusinput" placeholder="   Enter your Email"/>
                                    <img src="images/Icon ionic-ios-mail.svg" class="sinputimg sinputimgg"/>
                                  </div>
                                 </div>
                                 
                                 <div class="formf">
                                   <div class="form-group finputdiv">
-                                     <label class="mylabel">كلمة السر</label>
-                                     <input id="password-field" type="password" class="form-control myforminput joinusinput" value="●●●●●●●●●●●● "/>
+                                     <label class="mylabel"> Password</label>
+                                     <input id="password-field" type="password" class="form-control myforminput joinusinput" placeholder="●●●●●●●●●●●● "/>
                                      <img class="finputimg" src="images/icons.svg"/>
                                      <!-- <img class="eyeimg" src="images/Icon ionic-md-eye.svg"/> -->
                                      <span toggle="#password-field" class=" eyeimg fa fa-fw fa-eye field-icon toggle-password"></span>
                                   </div>
                                   <div class="form-group finputdiv sdivv">
-                                     <label class="mylabel">تاكيد كلمه السر</label>
-                                     <input id="passwordd-field" type="password" class="form-control myforminput joinusinput" value=" اعد كتابة كلمة السر"/>
+                                     <label class="mylabel">Confirm Password</label>
+                                     <input id="passwordd-field" type="password" class="form-control myforminput joinusinput" placeholder="●●●●●●●●●●●● "/>
                                      <img src="images/icons.svg" class="finputimg"/>
                                      <!-- <img class="eyeimg" src="images/Icon ionic-md-eye.svg"/> -->
                                      <span toggle="#passwordd-field" class="eyeimg fa fa-fw fa-eye field-icon toggle-password"></span>
@@ -140,13 +141,13 @@
                                
                                 <div class="form-group checkgroup">
                                  <input style="margin-top: 27px;" class="form-check-input mycheck" type="checkbox" value="sa" name="as" id="flexCheckDefault">
-                                   <label class="mylabel myllabel">الموافقة على الشروط والاحكام</label>
+                                   <label class="mylabel myllabel">   Agree to the terms and conditions</label>
                                 </div>
                                 <!-- <a href="#" class="sendto">ارسال</a> -->
-                                <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">ارسال </button>
+                                <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">Send </button>
                                 <div class="lastspan">
-                                  <span>    لديك حساب بالفعل ؟ </span>
-                                  <a href=""> تسجيل الدخول</a>
+                                  <span>  Already have an account? </span>
+                                  <a href="">  Log in</a>
                               </div>
                                 <div class="myrow">
               
@@ -172,8 +173,10 @@
                              </div>
                                      <div style="text-align: center;">
                                          <img src="images/Blokka (3).png"/>
-                                         <h3>انضم الينا  كفاحص</h3>
-                                         <p>أولوية لمن لديه شهادات حضور دورات فحص المبانى الجاهزة وجودة البناء</p>
+                                         <h3>  Join us as an examiner </h3>
+                                         <p>Priority for those who have certificates
+                                           to attend prefabricated building inspection
+                                            and building quality courses</p>
                                      </div>
                                      <div class="joinuscarousel">
                                          <div class="owl-carousel owl-theme ThemeCoderClass6 myowl6">
@@ -194,18 +197,23 @@
                               </div>
                              <!-- register second tab -->
                               <div class="tab">
-                             
+                                            <div style="float:left;"> <button class="back" style="position: absolute;
+                                    top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)">
+                    <i class="fa fa-arrow-left"></i>
+                   Back
+                  </button>
+                     </div>
                                 <div style="margin-top: 0;" class="verfcontent">
                                   <div class="vervimgdiv">
                                       <img src="images/Group 1639.svg"/>
                                   </div>
-                                  <h2>التحقق بخطوتين</h2>
-                                  <p>ادخل كود التحقق الخاص برقم</p>
+                                  <h2> Two-Step Verification</h2>
+                                  <p> Enter the verification code for the number</p>
                                   <br/>
                                   <span class="verfspan">******3912</span>
                                   <br/>
                                   <form>
-                                      <label class="sverfspan">ادخل الكود المكون من 6 ارقام</label>
+                                      <label class="sverfspan"> Enter the 6-digit code </label>
                                        <div class="form-group verfdiv">
                                           <input type="text" class="form-control verf" />
                                           <input type="text" class="form-control verf" />
@@ -214,11 +222,11 @@
                                           <input type="text" class="form-control verf"/>
                                        </div>
                                        <!-- <a href="#" class="sendto">ارسال</a> -->
-                                       <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">ارسال </button>
+                                       <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">Send </button>
                                   </form>
                                   <div class="lastspan">
-                                      <span>  لم يصلك الكود؟</span>
-                                      <a href=""> اعادة ارسال</a>
+                                      <span> Did you not receive the code?</span>
+                                      <a href="">  Resend</a>
                                   </div>
                                   </div>
                                   
@@ -246,8 +254,10 @@
                                </div>
                                        <div style="text-align: center;">
                                            <img src="images/Blokka (3).png"/>
-                                           <h3>انضم الينا  كفاحص</h3>
-                                           <p>أولوية لمن لديه شهادات حضور دورات فحص المبانى الجاهزة وجودة البناء</p>
+                                           <h3>  Join us as an examiner </h3>
+                                         <p>Priority for those who have certificates
+                                           to attend prefabricated building inspection
+                                            and building quality courses</p>
                                        </div>
                                        <div class="joinuscarousel">
                                            <div class="owl-carousel owl-theme ThemeCoderClass6 myowl6">
@@ -270,15 +280,15 @@
             
                               <div class="tab">
                                 <div style="float:left;"> <button class="back" style="position: absolute;
-                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
-                  عودة</button>
+                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-left"></i>
+                  Back</button>
                    </div>
-                                  <div class="form-group finputdiv mymclass">
-                                    <label class="mylabel">الدوله</label>
+                                  <div class="form-group finputdiv">
+                                    <label class="mylabel">The state</label>
                                     <div class="selectorr" id="selector">
                                       <select class="form-control input-lg " name="sama" >
                                         <option>
-                                          اختر علمك
+                                          choose your flag
                                         </option>
                                         <option>A</option>
                                         <option>B</option>
@@ -293,14 +303,13 @@
                                     
                                     <div class="formf">
                                     <div class="form-group finputdiv">
-                                        <label class="mylabel"> المدينة</label>
-                                        <input type="text" class="form-control myforminput myinputwidth" placeholder=" الطائف   "/>
-                                        <img style="filter: sepia(100%) hue-rotate(190deg) saturate(500%);"
-                                         class="finputimg" src="images/9055182_bxs_city_icon.svg"/>
+                                        <label class="mylabel"> The city</label>
+                                        <input type="text" class="form-control myforminput myinputwidth" placeholder=" Al-taef   "/>
+                                        <img  class="finputimg" src="images/9055182_bxs_city_icon.svg"/>
                                      </div>
                                      <div class="form-group finputdiv sdivv">
-                                        <label class="mylabel"> الحي </label>
-                                        <input type="text" class="myinputwidth form-control myforminput" placeholder="   الوسام"/>
+                                        <label class="mylabel"> The Neighborhood </label>
+                                        <input type="text" class="myinputwidth form-control myforminput" placeholder="   Al-Wesam"/>
                                         <img src="images/9055182_bxs_city_icon.svg" class="sinputimg sinputimgg"/>
                                       </div>
                                      </div>
@@ -311,15 +320,15 @@
                                             </div>
                                             <div style="position: relative;">
                                                <form>
-                                              <input style="position: absolute;" class="hal halo form-control forminput" type="text" placeholder="هل تود السماح بمعرفة موقعك الحالي ؟"/>
-                                              <a style="position: absolute; left: 25.7em;" class="allow" href="#">سماح</a>
+                                              <input style="position: absolute;" class="hal halo form-control forminput" type="text" placeholder="Do you want to let know your current location?"/>
+                                              <a style="position: absolute; left: 25.7em;" class="allow" href="#">Allow</a>
                                             </form>
                                             </div>
                                         <div class="form-group finputdiv">
-                                            <label class="mylabel">المؤهل العلمي</label>
+                                            <label class="mylabel"> Qualification</label>
                                             <div id="selector">
                                               <select class="form-control input-lg" name="samaaaaaa">
-                                                <option>اختر مؤهلك العلمي</option>
+                                                <option> choose your Qualification</option>
                                                 <option>B</option>
                                                 <option>C</option>
                                               </select>
@@ -338,11 +347,11 @@
                                             <span ><img style="cursor: pointer;" src="images/Icon awesome-file-alt (1).svg"/>
                                             </span>
                                         </div>
-                                        <span style="color: #707070; font-size: 14px;">أرفق صورة المؤهل العلمى هنا</span>
+                                        <span style="color: #707070; font-size: 14px;">    Attach a copy of your academic qualification here</span>
                                         </div>
                                      
                                     
-                                        <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">متابعه <i class="fa fa-arrow-left"></i></button>
+                                        <button  class="sendto" type="button" id="nextBtn" onclick="nextPrev(1)">Next <i class="fa fa-arrow-right"></i></button>
                                      <!-- <a href="#" class="sendto">ارسال</a> -->
                                    
                                     <div class="myrowww">
@@ -369,8 +378,10 @@
                                  </div>
                                          <div style="text-align: center;">
                                              <img src="images/Blokka (3).png"/>
-                                             <h3>انضم الينا  كفاحص</h3>
-                                             <p>أولوية لمن لديه شهادات حضور دورات فحص المبانى الجاهزة وجودة البناء</p>
+                                             <h3>  Join us as an examiner </h3>
+                                             <p>Priority for those who have certificates
+                                               to attend prefabricated building inspection
+                                                and building quality courses</p>
                                          </div>
                                          <div class="joinuscarousel">
                                              <div class="owl-carousel owl-theme ThemeCoderClass6 myowl6">
@@ -396,11 +407,16 @@
                              <!-- register fourth tab -->
                             
                               <div class="tab">
-                                <div style="padding:0 1em;">
+                                <div style="float:left;"> <button class="back" style="position: absolute;
+                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-left"></i>
+                  Back</button>
+                   </div>
+                   <div class="clear"></div>
+                                <div style="margin-right: 2em;">
                                 <div class="infodiv infodivv">
                                   <a href="#" class="file"><img src="images/Icon awesome-video.svg"/></a>
-                                  <span class="info"> شاهد الفيديو</span>
-                                  <p class="infop">فيديو تعريفى وتأهيلى للفاحص لتعريف الفاحص بطريقة الفحص و الياته وطريقة رفع التقرير</p>
+                                  <span class="info">  Watch the video</span>
+                                  <p class="infop">An introductory and qualifying video for the examiner to introduce the examiner to the examination method, its mechanisms, and the method of submitting the report</p>
                               </div>
                               <div class="homecontent1">
                       
@@ -429,7 +445,7 @@
                                       </div>
                                   </div>
                                   <div class="myvideoballs">
-                                  <div class="balls">
+                                  <div style="left: 17em;" class="balls">
                                       <a class="small_detail" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                           <div class="big_div">
                                               <div class="triangleup"></div>
@@ -453,8 +469,8 @@
                               <!-- <button type="submit" style="margin: 3em -3em -3em 0;" class="sendto">متابعة <i class="fa fa-arrow-left"></i></button> -->
                               <!-- Button trigger modal -->
 <button type="submit" style="margin: 3em -3em -3em 0;" class="sendto" data-bs-toggle="modal" data-bs-target="#exampleModalyas">
-  متابعه
-  <i class="fa fa-arrow-left"></i>
+  Next
+  <i class="fa fa-arrow-right"></i>
 </button>
 
 <!-- Modal -->
@@ -496,8 +512,10 @@
                            </div>
                                    <div style="text-align: center;">
                                        <img src="images/Blokka (3).png"/>
-                                       <h3>انضم الينا  كفاحص</h3>
-                                       <p>أولوية لمن لديه شهادات حضور دورات فحص المبانى الجاهزة وجودة البناء</p>
+                                       <h3>  Join us as an examiner </h3>
+                                       <p>Priority for those who have certificates
+                                         to attend prefabricated building inspection
+                                          and building quality courses</p>
                                    </div>
                                    <div class="joinuscarousel">
                                        <div class="owl-carousel owl-theme ThemeCoderClass6 myowl6">
@@ -528,10 +546,10 @@
                                   <h3>Thanks for your Donation!</h3> <span>Your donation has been entered! We will contact you shortly!</span>
                               </div>
                               <div style="overflow:auto;" id="nextprevious">
-                                  <div style="float:left;"> <button class="back" style="position: absolute;
+                                  <!-- <div style="float:left;"> <button class="back" style="position: absolute;
                                     top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
                     عودة</button>
-                     </div>
+                     </div> -->
                               </div>
                           </form>
                       </div>

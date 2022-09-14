@@ -2114,7 +2114,7 @@
 }
 @media only screen and (min-width:300px) and (max-width:1300px){
     .myforminput{
-        width: 90%;
+        /* width: 90%; */
     }
     .forminput{
         margin: auto;
@@ -2198,7 +2198,12 @@
         width: 71%;
     }
 }
+   
 @media only screen and (max-width:5464px) and (min-width:1400px){
+ 
+    .mapiframee{
+        width: 88%;
+    }
     .forminput{
         /* width: 10%; */
     }

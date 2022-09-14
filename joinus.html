@@ -23,6 +23,7 @@
     <!-- <link rel="stylesheet" href="css/style.rtl.css"/> -->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/responsive2ar.css"/>
 </head>
 <body>
 
@@ -121,14 +122,14 @@
                                 <div class="formf">
                                 <div class="form-group finputdiv">
                                    <label class="mylabel">كلمة السر</label>
-                                   <input id="password-field" type="password" class="form-control myforminput joinusinput" value="●●●●●●●●●●●● "/>
+                                   <input id="password-field" type="password" class="form-control myforminput joinusinput" placeholder="●●●●●●●●●●●● "/>
                                    <img class="finputimg" src="images/icons.svg"/>
                                    <!-- <img class="eyeimg" src="images/Icon ionic-md-eye.svg"/> -->
                                    <span toggle="#password-field" class=" eyeimg fa fa-fw fa-eye field-icon toggle-password"></span>
                                 </div>
                                 <div class="form-group finputdiv sdivv">
                                    <label class="mylabel">تاكيد كلمه السر</label>
-                                   <input id="passwordd-field" type="password" class="form-control myforminput joinusinput" value=" اعد كتابة كلمة السر"/>
+                                   <input id="passwordd-field" type="password" class="form-control myforminput joinusinput" placeholder=" اعد كتابة كلمة السر"/>
                                    <img src="images/icons.svg" class="finputimg"/>
                                    <!-- <img class="eyeimg" src="images/Icon ionic-md-eye.svg"/> -->
                                    <span toggle="#passwordd-field" class="eyeimg fa fa-fw fa-eye field-icon toggle-password"></span>
@@ -191,7 +192,10 @@
                               </div>
                              <!-- register second tab -->
                               <div class="tab">
-                             
+                                <div style="float:right;"> <button class="back" style="position: absolute;
+                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
+                  عودة</button>
+                   </div>
                                 <div style="margin-top: 0;" class="verfcontent">
                                   <div class="vervimgdiv">
                                       <img src="images/Group 1639.svg"/>
@@ -395,6 +399,10 @@
                              <!-- register fourth tab -->
                             
                               <div class="tab">
+                                <div style="float:right;"> <button class="back" style="position: absolute;
+                                  top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
+                  عودة</button>
+                   </div>
                                 <div style="padding:0 1em;">
                                 <div class="infodiv infodivv">
                                   <a href="#" class="file"><img src="images/Icon awesome-video.svg"/></a>
@@ -526,12 +534,12 @@
                               <div class="thanks-message text-center" id="text-message"> <img src="https://i.imgur.com/O18mJ1K.png" width="100" class="mb-4">
                                   <h3>Thanks for your Donation!</h3> <span>Your donation has been entered! We will contact you shortly!</span>
                               </div>
-                              <div style="overflow:auto;" id="nextprevious">
+                              <!-- <div style="overflow:auto;" id="nextprevious">
                                   <div style="float:right;"> <button class="back" style="position: absolute;
                                     top: 5em; border: none;" type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-arrow-right"></i>
                     عودة</button>
                      </div>
-                              </div>
+                              </div> -->
                           </form>
                       </div>
                   </div>
