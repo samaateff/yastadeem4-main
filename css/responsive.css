@@ -2216,6 +2216,7 @@
 }
 .myfooter{
     padding: 104px 137px 0px 137px;
+    overflow: hidden;
 }
 .mapdivv:after{
     display: none;
@@ -2233,7 +2234,7 @@
 display: none;
 }
 .homecontent{
-    /* margin-top: 5em; */
+    margin-top: 5em;
 }
 .myowl4 .center .item .clientcontent p{
     /* width: 94%; */
